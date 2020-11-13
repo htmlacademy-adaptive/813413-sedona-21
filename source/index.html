@@ -101,5 +101,72 @@
         <a class="social__dev" href="#">Разработано</a>
       </section>
     </footer>
+    <section>
+      <div>
+        <h2>Оставьте свой отзыв</h2>
+        <p>Помогите нашим отелям стать лучше!
+          Оставьте отзыв о них, а также о
+          посещенных вами
+          достопримечательностях
+        </p>
+      </div>
+      <div>
+        <form action="#" method="POST">
+          <div>
+            <h3>Представьтесь:</h3>
+            <div>
+              <label for="name">Имя*:
+                <input type="text" name="name" id="name" placeholder="Петр">
+              </label>
+            </div>
+            <div>
+              <label for="surname">Фамилия*:
+                <input type="text" name="name" id="surname" placeholder="Иванов">
+              </label>
+            </div>
+            <div>
+              <label for="patronymic">Отчество:
+                <input type="text" name="name" id="patronymic" placeholder="Александрович">
+              </label>
+            </div>
+          </div>
+          <div>
+            <h3>Контактная информация:</h3>
+            <div>
+              <label for="phone">Контактный телефон:
+                <input type="tel" name="tel" id="phone" placeholder="Ведите телефон">
+              </label>
+            </div>
+            <div>
+              <label for="mail">Электронная почта:
+                <input type="email" name="email" id="mail" placeholder="Введите e-mail">
+              </label>
+            </div>
+          </div>
+          <div>
+            <h3>Ваше общее впечатление:</h3>
+            <ul>
+              <li><label for="check-positive"><input type="radio" name="opinion" value="positive" id="check-positive">Скорее положительное</label></li>
+              <li><label for="check-negative"><input type="radio" name="opinion" value="negative" id="check-negative">Скорее отрицательное</label></li>
+              <li><label for="check-hard"><input type="radio" name="opinion" value="hard" id="check-hard">Затрудняюсь ответить</label></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Посещаемые достопримечательности:</h3>
+            <ul>
+              <li><label for="bridge"><input type="checkbox" name="bridge-devil" id="bridge">Мост Дьявола</label></li>
+              <li><label for="bell"><input type="checkbox" name="bell-rock" id="bell">Гора-Колокол</label></li>
+              <li><label for="park"><input type="checkbox" name="slide-park" id="park">Слайд-парк</label></li>
+              <li><label for="redrock"><input type="checkbox" name="red-rock" id="redrock">Красные скалы</label></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Опишите свои эмоции:</h3>
+            <textarea name="text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+          </div>
+          <button type="submit">Оставить отзыв</button>
+        </form>
+      </div>
+    </section>
   </body>
 </html>
