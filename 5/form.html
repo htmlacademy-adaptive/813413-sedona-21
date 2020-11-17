@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <base href="https://htmlacademy-adaptive.github.io/813413-sedona-21/5/">
+</head>
+  <body class="page__body">
+    <header class="page-header">
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Фото и видео</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#"><img src="https://via.placeholder.com/150x150" alt="Логотип Седона"></a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">Форма отзыва</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HtmlAcademy</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-main">
+      <section class="feedback">
+        <div class="feedback__container">
+          <div class="description">
+            <h2 class="description__title">Оставьте свой отзыв</h2>
+            <p class="description__text">Помогите нашим отелям стать лучше!
+              Оставьте отзыв о них, а также о
+              посещенных вами
+              достопримечательностях
+            </p>
+          </div>
+          <form class="form-feedback" action="https://echo.htmlacademy.ru" method="POST">
+            <div class="form-feedback__representation">
+              <h3 class="form-feedback__title">Представьтесь:</h3>
+              <div class="form-feedback__basic-info">
+                <label for="name">Имя*:
+                  <input type="text" name="name" id="name" placeholder="Петр">
+                </label>
+              </div>
+              <div class="form-feedback__basic-info">
+                <label for="surname">Фамилия*:
+                  <input type="text" name="name" id="surname" placeholder="Иванов">
+                </label>
+              </div>
+              <div class="form-feedback__basic-info">
+                <label for="patronymic">Отчество:
+                  <input type="text" name="name" id="patronymic" placeholder="Александрович">
+                </label>
+              </div>
+            </div>
+            <div class="form-feedback__connection">
+              <h3 class="form-feedback__title">Контактная информация:</h3>
+              <div class="form-feedback__data-info">
+                <label for="phone">Контактный телефон:
+                  <input type="tel" name="tel" id="phone" placeholder="Ведите телефон">
+                </label>
+              </div>
+              <div class="form-feedback__data-info">
+                <label for="mail">Электронная почта:
+                  <input type="email" name="email" id="mail" placeholder="Введите e-mail">
+                </label>
+              </div>
+            </div>
+            <div class="form-feedback__impression">
+              <h3 class="form-feedback__title">Ваше общее впечатление:</h3>
+              <ul class="form-feedback__impression-list">
+                <li class="form-feedback__impression-item">
+                  <label for="check-positive">
+                    <input type="radio" name="opinion" value="positive" id="check-positive">
+                    Скорее положительное</label>
+                  </li>
+                <li class="form-feedback__impression-item">
+                  <label for="check-negative">
+                    <input type="radio" name="opinion" value="negative" id="check-negative">
+                    Скорее отрицательное</label>
+                  </li>
+                <li class="form-feedback__impression-item">
+                  <label for="check-hard">
+                    <input type="radio" name="opinion" value="hard" id="check-hard">
+                    Затрудняюсь ответить</label>
+                  </li>
+              </ul>
+            </div>
+            <div class="form-feedback__attractions">
+              <h3 class="form-feedback__title">Посещаемые достопримечательности:</h3>
+              <ul class="form-feedback__attractions-list">
+                <li class="form-feedback__attractions-item">
+                  <label for="bridge"><input type="checkbox" name="bridge-devil" id="bridge">Мост Дьявола</label>
+                </li>
+                <li class="form-feedback__attractions-item">
+                  <label for="bell"><input type="checkbox" name="bell-rock" id="bell">Гора-Колокол</label>
+                </li>
+                <li class="form-feedback__attractions-item">
+                  <label for="park"><input type="checkbox" name="slide-park" id="park">Слайд-парк</label>
+                </li>
+                <li class="form-feedback__attractions-item">
+                  <label for="redrock"><input type="checkbox" name="red-rock" id="redrock">Красные скалы</label>
+                </li>
+              </ul>
+            </div>
+            <div class="form-feedback__description">
+              <h3 class="form-feedback__title">Опишите свои эмоции:</h3>
+              <textarea name="text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+            </div>
+            <button class="feedback__button" type="submit">Оставить отзыв</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <section class="social">
+        <h2 class="social__title">#visitsedona</h2>
+        <div class="social__links">
+          <a class="social__item" href="#"><span class="visually-hidden">twitter</span></a>
+          <a class="social__item" href="#"><span class="visually-hidden">facebook</span></a>
+          <a class="social__item" href="#"><span class="visually-hidden">youtube</span></a>
+        </div>
+        <a class="social__dev" href="#">Разработано</a>
+      </section>
+    </footer>
+  </body>
+</html>

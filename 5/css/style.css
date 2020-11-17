@@ -1,0 +1,14 @@
+.intro {
+  background-image: url("../img/header/back-mobile.jpg.jpg");
+  background-repeat: no-repeat;
+  width: 320px;
+  height: 332px; }
+
+.page__body {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  max-width: 320px; }
+
+/*# sourceMappingURL=style.css.map */
