@@ -1,0 +1,13 @@
+@import "header.scss";
+@import "main.scss";
+@import "footer.scss";
+
+$basic-blue: #81B3D2;
+$basic-gray: #EEEEEE;
+
+.page__body{
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
