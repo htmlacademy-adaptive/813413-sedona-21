@@ -39,29 +39,49 @@
   color: $basic-white;
 }
 
-.list-size--a {
+.link-size--a {
   padding: 15px 123px;
 }
 
-.list-size--b {
+.link-size--b {
   padding: 15px 97px;
 }
 
-.list-size--c {
+.link-size--c {
   padding: 15px 93px;
 }
 
-.list-size--d {
+.link-size--d {
   padding: 15px 97px 13px 97px;
 }
 
 .item-logo {
   width: 320px;
   height: 55px;
+  position: relative;
 }
 
-.site-list__link-logo {
+.item-logo::after{
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 102px;
+  height: 84px;
   position: absolute;
-  top: 80%;
-  left: 34%;
+  background-image: url("../../../img/menu/logotype-mobile.svg");
+  top: 0%;
+  left: 35%;
+  z-index: 1;
+}
+
+.main-nav__toggle {
+  position: absolute;
+  background-image: url("../../../img/menu/icon-menu.svg");
+  top: 236px;
+  right: 17px;
+  width: 23px;
+  height: 22px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
 }

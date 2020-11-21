@@ -1,3 +1,20 @@
 .features__block {
   background: $basic-gray;
 }
+
+.features__title {
+  font-size: 18px;
+}
+
+.features__number,
+.features__text {
+  font-size: 14px;
+}
+
+.features__number,
+.features__text,
+.features__title {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
