@@ -1,7 +1,7 @@
-@import "fonts.scss";
-@import "page__body.scss";
+@import "colors.scss";
+@import "global/fonts.scss";
+@import "global/page.scss";
 @import "color-card.scss";
-@import "features__block.scss";
-@import "header.scss";
-@import "main.scss";
-@import "footer.scss";
+@import "features.scss";
+@import "blocks/site-list/site-list.scss";
+@import "intro.scss";
