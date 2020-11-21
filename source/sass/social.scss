@@ -47,6 +47,30 @@
   left: 30%;
 }
 
+.social__item:first-child:hover {
+  background-color: $blue-hover;
+}
+
+.social__item:first-child:active {
+  background-color: $blue-active;
+}
+
+.social__item:nth-child(2):hover {
+  background-color: $blue-hover;
+}
+
+.social__item:nth-child(2):active {
+  background-color: $blue-active;
+}
+
+.social__item:last-child:hover {
+  background-color: $blue-hover;
+}
+
+.social__item:last-child:active {
+  background-color: $blue-active;
+}
+
 .social__links {
   max-width: 162px;
   margin: 0 auto;
