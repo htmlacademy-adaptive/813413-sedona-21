@@ -1,9 +1,15 @@
+.town {
+  position: relative;
+}
+
 .town__title {
   font-size: 18px;
+  margin: 0;
 }
 
 .town__text {
   font-size: 14px;
+  margin: 0;
 }
 
 .town__title,
@@ -15,4 +21,42 @@
 .town__souvenirs,
 .town__food {
   margin-left: 70px;
+  margin-top: 30px;
 }
+
+.town__housing::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: url("../img/main/icon-house.svg");
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 53%;
+  left: 7%;
+}
+
+.town__souvenirs::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: url("../img/main/icon-gift.svg");
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 71%;
+  left: 7%;
+}
+
+.town__food::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: url("../img/main/icon-burger.svg");
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 86%;
+  left: 6%;
+}
+
