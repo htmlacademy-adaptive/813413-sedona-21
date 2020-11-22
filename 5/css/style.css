@@ -551,6 +551,12 @@ template {
   margin: 0 auto;
   max-width: 186px; }
 
+.interesting__search:hover {
+  background-color: #669ec0; }
+
+.interesting__search:active {
+  background-color: #5496bd; }
+
 .interesting__map {
   display: block;
   margin-top: 40px; }
@@ -598,6 +604,24 @@ template {
   height: 15px;
   top: 36%;
   left: 30%; }
+
+.social__item:first-child:hover {
+  background-color: #669ec0; }
+
+.social__item:first-child:active {
+  background-color: #5496bd; }
+
+.social__item:nth-child(2):hover {
+  background-color: #669ec0; }
+
+.social__item:nth-child(2):active {
+  background-color: #5496bd; }
+
+.social__item:last-child:hover {
+  background-color: #669ec0; }
+
+.social__item:last-child:active {
+  background-color: #5496bd; }
 
 .social__links {
   max-width: 162px;
