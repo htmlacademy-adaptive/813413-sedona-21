@@ -1,1 +1,12 @@
-// Начните писать стили здесь
+@import "colors.scss";
+@import "global/fonts.scss";
+@import "global/page.scss";
+@import "normalize.scss";
+@import "color-card.scss";
+@import "features.scss";
+@import "blocks/site-list/site-list.scss";
+@import "blocks/intro/intro.scss";
+@import "description.scss";
+@import "town.scss";
+@import "interesting.scss";
+@import "social.scss";

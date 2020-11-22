@@ -3,91 +3,102 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="#">Главная</a>
+              <a class="site-list__link link-size--a" href="#"><span>Главная</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#">Фото и видео</a>
+              <a class="site-list__link link-size--b" href="#"><span>Фото и видео</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#"><img src="https://via.placeholder.com/150x150" alt="Логотип Седона"></a>
+              <a class="site-list__link link-size--c" href="#"><span>Форма отзыва</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#">Форма отзыва</a>
+              <a class="site-list__link link-size--d" href="#"><span>Html Academy</span></a>
             </li>
-            <li class="site-list__item">
-              <a href="#">HtmlAcademy</a>
+            <li class="site-list__item item-logo">
+              <a class="site-list__link-logo" href="#"></a>
             </li>
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
           </ul>
         </div>
       </nav>
     </header>
     <main class="page-main">
       <section class="intro">
-        <h1 class="visually-hidden">СЕДОНА</h1>
-        <img class="intro__background" src="https://via.placeholder.com/150x150" alt="Фоновое изображение секции Седона">
+        <div class="intro__title">
+          <h1 class="visually-hidden">СЕДОНА</h1>
+        </div>
       </section>
       <section class="description">
-        <h2 class="description__title">СЕДОНА — небольшой  городок в АРИЗОНЕ,  заслуживающий большего!</h2>
-        <p class="description__text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+        <h2 class="description__title">СЕДОНА — небольшой<br>
+          городок в АРИЗОНЕ,<br>
+          заслуживающий большего!</h2>
+        <p class="description__text">Рассмотрим 5 причин, по которым<br>
+          Седона круче, чем гранд каньон!</p>
       </section>
       <section class="town">
         <div class="color-card">
           <h2 class="color-card__title">Настоящий городок</h2>
-          <p class="color-card__number">№1</p>
+          <p class="color-card__number">—№1—</p>
           <p class="color-card__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
         </div>
-        <img src="https://via.placeholder.com/150x150" alt="Фото города">
+        <img src="img/main/city.jpg" width="320" height="260" alt="Фото города">
         <div class="town__housing">
           <h3 class="town__title">Жилье</h3>
-          <p class="town__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+          <p class="town__text">Рекомендуем пожить в<br>
+            настоящем мотеле, все как в кино!</p>
         </div>
         <div class="town__souvenirs">
           <h3 class="town__title">Сувениры</h3>
-          <p class="town__text">Не только китайского, но и метсного производства!</p>
+          <p class="town__text">Не только китайского, но и<br>
+          метсного производства!</p>
         </div>
         <div class="town__food">
           <h3 class="town__title">Еда</h3>
-          <p class="town__text">Всегда заказывайте бургер, вы не разочаруетесь!</p>
+          <p class="town__text">Всегда заказывайте<br>
+          бургер, вы не<br>
+          разочаруетесь!</p>
         </div>
       </section>
       <section class="features">
         <div class="color-card">
           <h2 class="color-card__title">Там есть мост дьявола</h2>
-          <p class="color-card__number">№2</p>
+          <p class="color-card__number">—№2—</p>
           <p class="color-card__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
         </div>
-        <img src="https://via.placeholder.com/150x150" alt="Фото каньона">
+        <img src="img/main/bridge.png" width="320" height="260" alt="Фото каньона">
         <div class="features__block">
           <h2 class="features__title">Небольшая площадь</h2>
-          <p class="features__number">№3</p>
+          <p class="features__number">—№3—</p>
           <p class="features__text">Все интересные места находятся очень близко</p>
         </div>
         <div class="features__block">
           <h2 class="features__title">Красивая дорога</h2>
-          <p class="features__number">№4</p>
+          <p class="features__number">—№4—</p>
           <p class="features__text">Еъать в Седону из Лас-Вегаса совсем не скучно!</p>
         </div>
         <div class="features__block">
           <h2 class="features__title">Мало туристов</h2>
-          <p class="features__number">№5</p>
+          <p class="features__number">—№5—</p>
           <p class="features__text">Большинство едет в Гранд каньон и толпится там</p>
         </div>
       </section>
       <section class="interesting">
         <div class="interesting__container">
-          <h2 class="interesting__title">Заинтересовались</h2>
-          <p class="interesting__text">Укажите предпологаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <a class="interesting__search" href="#">Найти гостинницу</a>
+          <h2 class="interesting__title">Заинтересовались?</h2>
+          <p class="interesting__text">Укажите предпологаемые даты<br>
+            поездки, и мы покажем вам лучшие<br>
+            предложения гостиниц в Седоне</p>
+          <a class="interesting__search" href="#">Найти гостиницу</a>
         </div>
-        <img src="https://via.placeholder.com/150x150" alt="Изображение карты">
+        <img class="interesting__map" src="img/main/map-mobile.jpg" height="350" width="320" alt="Карта">
       </section>
     </main>
     <footer class="page-footer">

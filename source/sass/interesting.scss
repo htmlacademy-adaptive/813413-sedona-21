@@ -1,0 +1,39 @@
+.interesting__title {
+  font-size: 21px;
+}
+
+.interesting__text {
+  font-size: 14px;
+}
+
+.interesting__title,
+.interesting__text {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.interesting__search {
+  background-color: $basic-blue;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $basic-white;
+  padding: 17px 43px;
+  display: block;
+  margin: 0 auto;
+  max-width: 186px;
+}
+
+.interesting__search:hover{
+  background-color: $blue-hover;
+}
+
+.interesting__search:active{
+  background-color: $blue-active;
+}
+
+.interesting__map {
+  display: block;
+  margin-top: 40px;
+}

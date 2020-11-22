@@ -1,0 +1,21 @@
+.color-card {
+  background-color: $basic-blue;
+}
+
+.color-card__title {
+  font-size: 18px;
+}
+
+.color-card__number,
+.color-card__text {
+  font-size: 14px;
+}
+
+.color-card__text,
+.color-card__title,
+.color-card__number  {
+  text-transform: uppercase;
+  text-align: center;
+  color: $basic-white;
+  margin: 0;
+}
