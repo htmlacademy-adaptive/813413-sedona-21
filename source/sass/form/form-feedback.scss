@@ -116,3 +116,43 @@
   top: 40%;
   left: 37%;
 }
+
+/*Блок "Общее впечатление/form-feedback__impression*/
+
+.form-feedback__impression {
+  position: relative;
+}
+
+.form-feedback__impression-list {
+  list-style: none;
+}
+
+.form-feedback__impression-item {
+  margin-top: 43px;
+}
+
+.form-feedback__impression-item:last-child{
+  margin-bottom: 43px;
+}
+
+.form-feedback__check {
+  padding-left: 30px;
+}
+
+.form-feedback__check-input {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-feedback__check-box {
+  position: absolute;
+  margin-right: -30px;
+  width: 55px;
+  height: 55px;
+  background-repeat: no-repeat;
+  background-image: url("../../img/form/box.svg");
+}
+
+
