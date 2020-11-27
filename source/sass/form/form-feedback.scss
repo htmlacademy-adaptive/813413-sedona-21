@@ -148,11 +148,20 @@
 
 .form-feedback__check-box {
   position: absolute;
-  margin-right: -30px;
+  margin-left: -65px;
+  margin-top: -15px;
   width: 55px;
   height: 55px;
   background-repeat: no-repeat;
   background-image: url("../../img/form/box.svg");
 }
 
+.form-feedback__check-input:checked + .form-feedback__check-box {
+  background-image: url("../../img/form/on.svg");
+  background-repeat: no-repeat;
+}
 
+.form-feedback__check-input:checked:focus + .form-feedback__check-box {
+  background-image: url("../../img/form/on-focus.svg");
+  background-repeat: no-repeat;
+}
