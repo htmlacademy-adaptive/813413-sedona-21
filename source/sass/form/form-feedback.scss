@@ -1,0 +1,118 @@
+.form-feedback__title {
+  text-align: center;
+}
+
+.form-feedback__representation,
+.form-feedback__connection,
+.form-feedback__impression,
+.form-feedback__attractions,
+.form-feedback__description {
+  border-top: 1px solid $basic-gray;
+  margin-top: 20px;
+}
+
+.form-feedback__basic-info input::-webkit-input-placeholder,
+.form-feedback__data-info input::-webkit-input-placeholder {
+  color: $basic-black;
+}
+
+/*Блок "Представьтесь/form-feedback__representation*/
+
+.form-feedback__title,
+.form-feedback__basic-info label {
+  text-transform: uppercase;
+}
+
+.form-feedback__basic-info input {
+  font-weight: 700;
+  background-color: $gray-input;
+  border: none;
+  margin-top: 20px;
+}
+
+.form-feedback__first-area {
+  padding: 19px 48px 19px 26px;
+}
+
+.form-feedback__second-area {
+  margin-left: 10px;
+}
+
+.form-feedback__first-area,
+.form-feedback__third-area {
+  margin-left: 16px;
+}
+
+.form-feedback__first-area,
+.form-feedback__second-area,
+.form-feedback__third-area {
+  max-width: 155px;
+  box-sizing: content-box;
+}
+
+.form-feedback__second-area,
+.form-feedback__third-area {
+  padding: 19px 18px 19px 15px;
+}
+
+/*Блок "Контактная информация/form-feedback__connection*/
+
+.form-feedback__data-info {
+  margin-top: 16px;
+  position: relative;
+}
+
+.form-feedback__data-info input {
+  border: none;
+  background-color: $gray-input;
+  padding: 20px 57px 20px 43px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.form-feedback__data-info label {
+  text-transform: uppercase;
+  margin-left: 42px;
+}
+
+.form-feedback__decoration-phone-container {
+  background-color: $gray-iconbg;
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  top: 35%;
+  left: 75%;
+}
+
+.form-feedback__decoration-phone-container::after {
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../img/form/phone.svg");
+  top: 33%;
+  left: 33%;
+}
+
+.form-feedback__decoration-mail-container {
+  background-color: $gray-iconbg;
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  top: 35%;
+  left: 75%;
+}
+
+.form-feedback__decoration-mail-container::after {
+  position: absolute;
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../img/form/mail.svg");
+  top: 40%;
+  left: 37%;
+}

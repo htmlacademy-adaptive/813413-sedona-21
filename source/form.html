@@ -3,33 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="#">Главная</a>
+              <a class="site-list__link link-size--a" href="index.html"><span>Главная</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#">Фото и видео</a>
+              <a class="site-list__link link-size--b" href="#"><span>Фото и видео</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#"><img src="https://via.placeholder.com/150x150" alt="Логотип Седона"></a>
+              <a class="site-list__link link-size--c" href="form.html"><span>Форма отзыва</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#">Форма отзыва</a>
+              <a class="site-list__link link-size--d" href="#"><span>Html Academy</span></a>
             </li>
-            <li class="site-list__item">
-              <a href="#">HtmlAcademy</a>
+            <li class="site-list__item item-logo">
+              <a class="site-list__link-logo" href="#"></a>
             </li>
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
           </ul>
         </div>
       </nav>
     </header>
     <main class="page-main">
+      <section class="intro intro-form">
+        <div class="intro__title intro-form__title">
+          <h1 class="visually-hidden">СЕДОНА</h1>
+        </div>
+      </section>
       <section class="feedback">
         <div class="feedback__container">
           <div class="description">
@@ -45,17 +51,17 @@
               <h3 class="form-feedback__title">Представьтесь:</h3>
               <div class="form-feedback__basic-info">
                 <label for="name">Имя*:
-                  <input type="text" name="name" id="name" placeholder="Петр">
+                  <input class="form-feedback__first-area" type="text" name="name" id="name" placeholder="Петр">
                 </label>
               </div>
               <div class="form-feedback__basic-info">
                 <label for="surname">Фамилия*:
-                  <input type="text" name="name" id="surname" placeholder="Иванов">
+                  <input class="form-feedback__second-area" type="text" name="name" id="surname" placeholder="Иванов">
                 </label>
               </div>
               <div class="form-feedback__basic-info">
                 <label for="patronymic">Отчество:
-                  <input type="text" name="name" id="patronymic" placeholder="Александрович">
+                  <input class="form-feedback__third-area" type="text" name="name" id="patronymic" placeholder="Александрович">
                 </label>
               </div>
             </div>
@@ -63,13 +69,15 @@
               <h3 class="form-feedback__title">Контактная информация:</h3>
               <div class="form-feedback__data-info">
                 <label for="phone">Контактный телефон:
-                  <input type="tel" name="tel" id="phone" placeholder="Ведите телефон">
+                  <input type="tel" name="tel" id="phone" placeholder="Введите телефон">
+                  <div class="form-feedback__decoration-phone-container"></div>
                 </label>
               </div>
               <div class="form-feedback__data-info">
                 <label for="mail">Электронная почта:
                   <input type="email" name="email" id="mail" placeholder="Введите e-mail">
                 </label>
+                <div class="form-feedback__decoration-mail-container"></div>
               </div>
             </div>
             <div class="form-feedback__impression">
