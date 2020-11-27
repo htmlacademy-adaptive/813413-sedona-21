@@ -132,7 +132,7 @@
 }
 
 .form-feedback__check {
-  padding-left: 35px;
+  padding-left: 57px;
   font-weight: 700;
 }
 
@@ -180,7 +180,7 @@
 }
 
 .from-feedback__attractions-check {
-  padding-left: 35px;
+  padding-left: 57px;
   font-weight: 700;
 }
 
@@ -213,4 +213,22 @@
   background-image: url("../../img/form/on-focus-square.svg");
 }
 
+/*Блок "Опишите свои эмоции/form-feedback__description*/
 
+.form-feedback__description-container {
+  text-align: center;
+}
+
+.form-feedback__description-text {
+  max-width: 266px;
+  height: 160px;
+  background-color: $gray-input;
+  resize: none;
+  border: none;
+  padding: 20px 0 0 13px;
+}
+
+.form-feedback__description-text::-webkit-input-placeholder{
+  color: $basic-black;
+  font-weight: 700;
+}

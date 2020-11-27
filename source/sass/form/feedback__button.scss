@@ -1,0 +1,23 @@
+.feedback__button {
+  background-color: $basic-blue;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $basic-white;
+  padding: 17px 55px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 51px;
+  margin-bottom: 76px;
+  max-width: 280px;
+  border: 0;
+}
+
+.feedback__button:hover{
+  background-color: $blue-hover;
+}
+
+.feedback__button:active{
+  background-color: $blue-active;
+}
