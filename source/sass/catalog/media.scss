@@ -1,0 +1,47 @@
+.media__photo {
+  border-top: 1px solid $gray-disable;
+}
+
+.media__photo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.media__inner-container {
+  margin: 21px 0 15px 0;
+}
+
+.media__title,
+.media__figcaption {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.media__title {
+  text-transform: uppercase;
+}
+
+.media__likes {
+  font-weight: 700;
+  position: relative;
+  margin-left: 39px;
+}
+
+.media__likes::before {
+  content: "";
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -2px;
+  left: -39px;
+  background-image: url("../../img/catalog/like.svg");
+}
+
+.media__video {
+  text-align: center;
+  margin-bottom: 49px;
+}
