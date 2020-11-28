@@ -3,33 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <header class="page-header">
       <nav class="main-nav">
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
         <div class="main-nav__wrapper">
           <ul class="main-nav__list site-list">
             <li class="site-list__item">
-              <a href="#">Главная</a>
+              <a class="site-list__link link-size--a" href="index.html"><span>Главная</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#">Фото и видео</a>
+              <a class="site-list__link link-size--b" href="#"><span>Фото и видео</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#"><img src="https://via.placeholder.com/150x150" alt="Логотип Седона"></a>
+              <a class="site-list__link link-size--c" href="form.html"><span>Форма отзыва</span></a>
             </li>
             <li class="site-list__item">
-              <a href="#">Форма отзыва</a>
+              <a class="site-list__link link-size--d" href="#"><span>Html Academy</span></a>
             </li>
-            <li class="site-list__item">
-              <a href="#">HtmlAcademy</a>
+            <li class="site-list__item item-logo">
+              <a class="site-list__link-logo" href="#"></a>
             </li>
+            <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
           </ul>
         </div>
       </nav>
     </header>
     <main class="page-main">
+      <section class="intro intro-form">
+        <div class="intro__title intro-form__title">
+          <h1 class="visually-hidden">СЕДОНА</h1>
+        </div>
+      </section>
       <section class="feedback">
         <div class="feedback__container">
           <div class="description">
@@ -45,17 +51,17 @@
               <h3 class="form-feedback__title">Представьтесь:</h3>
               <div class="form-feedback__basic-info">
                 <label for="name">Имя*:
-                  <input type="text" name="name" id="name" placeholder="Петр">
+                  <input class="form-feedback__first-area" type="text" name="name" id="name" placeholder="Петр">
                 </label>
               </div>
               <div class="form-feedback__basic-info">
                 <label for="surname">Фамилия*:
-                  <input type="text" name="name" id="surname" placeholder="Иванов">
+                  <input class="form-feedback__second-area" type="text" name="name" id="surname" placeholder="Иванов">
                 </label>
               </div>
               <div class="form-feedback__basic-info">
                 <label for="patronymic">Отчество:
-                  <input type="text" name="name" id="patronymic" placeholder="Александрович">
+                  <input class="form-feedback__third-area" type="text" name="name" id="patronymic" placeholder="Александрович">
                 </label>
               </div>
             </div>
@@ -63,55 +69,74 @@
               <h3 class="form-feedback__title">Контактная информация:</h3>
               <div class="form-feedback__data-info">
                 <label for="phone">Контактный телефон:
-                  <input type="tel" name="tel" id="phone" placeholder="Ведите телефон">
+                  <input type="tel" name="tel" id="phone" placeholder="Введите телефон">
+                  <div class="form-feedback__decoration-phone-container"></div>
                 </label>
               </div>
               <div class="form-feedback__data-info">
                 <label for="mail">Электронная почта:
                   <input type="email" name="email" id="mail" placeholder="Введите e-mail">
                 </label>
+                <div class="form-feedback__decoration-mail-container"></div>
               </div>
             </div>
             <div class="form-feedback__impression">
               <h3 class="form-feedback__title">Ваше общее впечатление:</h3>
               <ul class="form-feedback__impression-list">
                 <li class="form-feedback__impression-item">
-                  <label for="check-positive">
-                    <input type="radio" name="opinion" value="positive" id="check-positive">
+                  <label class="form-feedback__check" for="check-positive">
+                    <input class="form-feedback__check-input" type="radio" name="opinion" value="positive" id="check-positive" checked tabindex="0">
+                    <span class="form-feedback__check-box"></span>
                     Скорее положительное</label>
-                  </li>
+                </li>
                 <li class="form-feedback__impression-item">
-                  <label for="check-negative">
-                    <input type="radio" name="opinion" value="negative" id="check-negative">
+                  <label class="form-feedback__check" for="check-negative">
+                    <input class="form-feedback__check-input" type="radio" name="opinion" value="negative" id="check-negative" tabindex="0">
+                    <span class="form-feedback__check-box"></span>
                     Скорее отрицательное</label>
-                  </li>
+                </li>
                 <li class="form-feedback__impression-item">
-                  <label for="check-hard">
-                    <input type="radio" name="opinion" value="hard" id="check-hard">
+                  <label class="form-feedback__check" for="check-hard">
+                    <input class="form-feedback__check-input" type="radio" name="opinion" value="hard" id="check-hard" tabindex="0">
+                    <span class="form-feedback__check-box"></span>
                     Затрудняюсь ответить</label>
-                  </li>
+                </li>
               </ul>
             </div>
             <div class="form-feedback__attractions">
               <h3 class="form-feedback__title">Посещаемые достопримечательности:</h3>
               <ul class="form-feedback__attractions-list">
                 <li class="form-feedback__attractions-item">
-                  <label for="bridge"><input type="checkbox" name="bridge-devil" id="bridge">Мост Дьявола</label>
+                  <label class="from-feedback__attractions-check" for="bridge">
+                    <input class="form-feedback__attractions-check-input" type="checkbox" name="bridge-devil" id="bridge" checked tabindex="0">
+                    <span class="form-feedback__attractions-check-box"></span>
+                    Мост Дьявола</label>
                 </li>
                 <li class="form-feedback__attractions-item">
-                  <label for="bell"><input type="checkbox" name="bell-rock" id="bell">Гора-Колокол</label>
+                  <label class="from-feedback__attractions-check" for="bell">
+                    <input class="form-feedback__attractions-check-input" type="checkbox" name="bell-rock" id="bell" checked tabindex="0">
+                    <span class="form-feedback__attractions-check-box"></span>
+                    Гора-Колокол</label>
                 </li>
                 <li class="form-feedback__attractions-item">
-                  <label for="park"><input type="checkbox" name="slide-park" id="park">Слайд-парк</label>
+                  <label class="from-feedback__attractions-check" for="park">
+                    <input class="form-feedback__attractions-check-input" type="checkbox" name="slide-park" id="park" checked tabindex="0">
+                    <span class="form-feedback__attractions-check-box"></span>
+                    Слайд-парк</label>
                 </li>
                 <li class="form-feedback__attractions-item">
-                  <label for="redrock"><input type="checkbox" name="red-rock" id="redrock">Красные скалы</label>
+                  <label class="from-feedback__attractions-check" for="redrock">
+                    <input class="form-feedback__attractions-check-input" type="checkbox" name="red-rock" id="redrock" tabindex="0">
+                    <span class="form-feedback__attractions-check-box"></span>
+                    Красные скалы</label>
                 </li>
               </ul>
             </div>
             <div class="form-feedback__description">
               <h3 class="form-feedback__title">Опишите свои эмоции:</h3>
-              <textarea name="text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+              <div class="form-feedback__description-container">
+                <textarea class="form-feedback__description-text" name="text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
+              </div>
             </div>
             <button class="feedback__button" type="submit">Оставить отзыв</button>
           </form>
