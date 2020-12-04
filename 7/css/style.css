@@ -374,80 +374,6 @@ template {
   text-align: center;
   margin: 0; }
 
-.site-list {
-  padding: 0;
-  margin: 0;
-  position: relative; }
-
-.site-list__item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none; }
-
-.site-list__link {
-  background-color: #81b3d2;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 50px;
-  box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.2), inset 1px 1px 1px rgba(255, 255, 255, 0.2); }
-
-.site-list__link:hover {
-  background-color: #669ec0; }
-
-.site-list__link:active {
-  background-color: #5496bd; }
-
-.site-list__link span:active {
-  opacity: 0.3; }
-
-.site-list__link:active:disabled {
-  background-color: #e5e5e5;
-  color: #ffffff; }
-
-.link-size--a {
-  padding: 15px 123px; }
-
-.link-size--b {
-  padding: 15px 97px; }
-
-.link-size--c {
-  padding: 15px 93px; }
-
-.link-size--d {
-  padding: 15px 97px 13px 97px; }
-
-.item-logo {
-  width: 320px;
-  height: 55px;
-  position: relative; }
-
-.item-logo::after {
-  content: "";
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 102px;
-  height: 84px;
-  position: absolute;
-  background-image: url("../../../img/menu/logotype-mobile.svg");
-  top: 0%;
-  left: 35%;
-  z-index: 1; }
-
-.main-nav__toggle {
-  position: absolute;
-  background-image: url("../../../img/menu/icon-menu.svg");
-  top: 236px;
-  right: 17px;
-  width: 23px;
-  height: 22px;
-  background-color: transparent;
-  border: 0;
-  cursor: pointer; }
-
 .intro {
   background-image: url("../img/header/back-mobile.jpg.jpg");
   background-repeat: no-repeat;
@@ -680,6 +606,69 @@ template {
   left: 35%;
   z-index: 1; }
 
+.main-nav__list {
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+.main-nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none; }
+
+.main-nav__link {
+  background-color: #81b3d2;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 50px;
+  box-shadow: 1px 1px 1px rgba(1, 1, 1, 0.2), inset 1px 1px 1px rgba(255, 255, 255, 0.2); }
+
+.main-nav__link:hover {
+  background-color: #669ec0; }
+
+.main-nav__link:active {
+  background-color: #5496bd; }
+
+.main-nav__link span:active {
+  opacity: 0.3; }
+
+.main-nav__link:active:disabled {
+  background-color: #e5e5e5;
+  color: #ffffff; }
+
+.main-nav__link--size-a {
+  padding: 15px 123px; }
+
+.main-nav__link--size-b {
+  padding: 15px 97px; }
+
+.main-nav__link--size-c {
+  padding: 15px 93px; }
+
+.main-nav__link--size-d {
+  padding: 15px 97px 13px 97px; }
+
+.main-nav__item--logo {
+  width: 320px;
+  height: 55px;
+  position: relative; }
+
+.main-nav__item--logo::after {
+  content: "";
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 102px;
+  height: 84px;
+  position: absolute;
+  background-image: url("../../../img/menu/logotype-mobile.svg");
+  top: 0%;
+  left: 35%;
+  z-index: 1; }
+
 .main-nav__toggle {
   position: absolute;
   background-image: url("../../../img/menu/icon-menu.svg");
@@ -899,7 +888,8 @@ template {
   color: #000000;
   font-weight: 700; }
 
-.feedback__button {
+/*Кнопка "Оставить отзыв"*/
+.form-feedback__button {
   background-color: #81b3d2;
   font-size: 21px;
   font-weight: 700;
@@ -914,10 +904,10 @@ template {
   max-width: 280px;
   border: 0; }
 
-.feedback__button:hover {
+.form-feedback__button:hover {
   background-color: #669ec0; }
 
-.feedback__button:active {
+.form-feedback__button:active {
   background-color: #5496bd; }
 
 .media__photo {
