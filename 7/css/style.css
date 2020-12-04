@@ -577,18 +577,6 @@ template {
   left: 84%;
   position: absolute; }
 
-.link-size--a {
-  padding: 15px 123px; }
-
-.link-size--b {
-  padding: 15px 97px; }
-
-.link-size--c {
-  padding: 15px 93px; }
-
-.link-size--d {
-  padding: 15px 97px 13px 97px; }
-
 .item-logo {
   width: 320px;
   height: 55px;
@@ -911,9 +899,7 @@ template {
   background-color: #5496bd; }
 
 .media__photo {
-  border-top: 1px solid #e5e5e5; }
-
-.media__photo {
+  border-top: 1px solid #e5e5e5;
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
