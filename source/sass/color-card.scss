@@ -19,3 +19,16 @@
   color: $basic-white;
   margin: 0;
 }
+
+@media (min-width: $tablet-width) {
+  .color-card {
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .color-card__text {
+    width: 200px;
+  }
+}

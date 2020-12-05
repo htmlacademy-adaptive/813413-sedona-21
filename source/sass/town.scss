@@ -59,3 +59,64 @@
   top: 86%;
   left: 6%;
 }
+
+@media (min-width: $tablet-width) {
+  .town {
+    margin-top: 40px;
+  }
+  .town__title,
+  .town__text {
+    text-align: center;
+  }
+  .town,
+  .town__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .town__img {
+    object-fit: cover;
+    width: 66.6%;
+  }
+  .town__container{
+    margin: 0 auto;
+    margin-top: 58px;
+    position: relative;
+  }
+  .town__housing,
+  .town__souvenirs,
+  .town__food{
+    width: 192px;
+    height: 185px;
+  }
+  .town__souvenirs,
+  .town__food {
+    margin-left: 75px;
+  }
+  .town__title {
+    margin-top: 75px;
+    text-align: center;
+  }
+  .town__housing::before,
+  .town__souvenirs::before,
+  .town__food::before {
+    width: 76px;
+    height: 76px;
+    margin: 0 auto;
+  }
+  .town__housing::before {
+    background-image: url("../img/tablet/icon-house-tablet.svg");
+    top: 10%;
+    left: 16%;
+  }
+  .town__souvenirs::before {
+    background-image: url("../img/tablet/icon-gift-tablet.svg");
+    top: 6%;
+    left: 50%;
+  }
+  .town__food::before {
+    background-image: url("../img/tablet/icon-burger-tablet.svg");
+    top: 9%;
+    left: 83%;
+  }
+}
