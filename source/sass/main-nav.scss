@@ -115,7 +115,8 @@
     box-shadow: none;
   }
   .main-nav__item--logo::after {
-    left: 22%;
+    transform: translateX(-50%);
+    left: 50%;
   }
   .main-nav__toggle {
     display: none;

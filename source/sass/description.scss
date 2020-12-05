@@ -1,7 +1,10 @@
 .description__title {
+  margin: 0 auto;
+  margin-top: 20px;
   text-transform: uppercase;
   font-size: 18px;
   text-align: center;
+  width: 272px;
 }
 
 .description__text {
@@ -9,4 +12,17 @@
   font-size: 14px;
   font-weight: 400;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 250px;
+}
+
+@media (min-width: $tablet-width) {
+  .description__title,
+  .description__text {
+    width: 520px;
+  }
+  .description__title {
+    font-size: 21px;
+  }
 }
