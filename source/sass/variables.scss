@@ -14,12 +14,12 @@ $mobile-width: 320px;
 $tablet-width: 768px;
 $desktop-width: 1200px;
 
-//
+//Template Containers
 $mobile-width-container: 767px;
 $tablet-width-container: 1199px;
 $desktop-width-container: 1200px;
 
-//Fonts
+//Template Fonts
 @font-face {
   font-family: "PT Sans";
   src:url("../fonts/ptsans.woff2") format("woff2"),
