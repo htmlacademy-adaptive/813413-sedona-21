@@ -127,7 +127,7 @@
   margin-top: 43px;
 }
 
-.form-feedback__impression-item:last-child{
+.form-feedback__impression-item:last-child {
   margin-bottom: 43px;
 }
 
@@ -172,7 +172,7 @@
 }
 
 .form-feedback__attractions-item {
-  margin-top: 43px
+  margin-top: 43px;
 }
 
 .form-feedback__attractions-item:last-child {
@@ -228,7 +228,33 @@
   padding: 20px 0 0 13px;
 }
 
-.form-feedback__description-text::-webkit-input-placeholder{
+.form-feedback__description-text::-webkit-input-placeholder {
   color: $basic-black;
   font-weight: 700;
+}
+
+/*Кнопка "Оставить отзыв"*/
+
+.form-feedback__button {
+  background-color: $basic-blue;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $basic-white;
+  padding: 17px 55px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 51px;
+  margin-bottom: 76px;
+  max-width: 280px;
+  border: 0;
+}
+
+.form-feedback__button:hover {
+  background-color: $blue-hover;
+}
+
+.form-feedback__button:active {
+  background-color: $blue-active;
 }
