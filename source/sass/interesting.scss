@@ -37,3 +37,17 @@
   display: block;
   margin-top: 40px;
 }
+
+@media (min-width: $tablet-width) {
+  .interesting {
+    width: 435px;
+    margin: 0 auto;
+    margin-top: 58px;
+  }
+  .interesting__title {
+    font-size: 26px;
+  }
+  .interesting__text {
+    word-wrap: 400px;
+  }
+}
