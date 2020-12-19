@@ -100,3 +100,18 @@
   left: 84%;
   position: absolute;
 }
+
+@media (min-width: $tablet-width) {
+  .social {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 94px 0 60px;
+  }
+  .social__title,
+  .social__dev {
+    margin: 0;
+  }
+  .social__dev::after {
+    left: 111%;
+  }
+}
