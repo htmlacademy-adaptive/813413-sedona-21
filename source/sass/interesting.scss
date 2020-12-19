@@ -54,10 +54,24 @@
   .interesting__map {
     display: none;
   }
-  .interesting__map-container{
+  .interesting__map-container {
     background-image: url("../img/tablet/tablet-map.jpg");
     height: 350px;
     width: 768px;
     margin-top: 58px;
+  }
+  .interesting__search {
+    max-width: 458px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .interesting {
+    width: 1200px;
+  }
+  .interesting__map-container {
+    background-image: url("../img/desktop/map-desktop.jpg");
+    width: 1200px;
   }
 }

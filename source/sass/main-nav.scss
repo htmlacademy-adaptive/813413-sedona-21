@@ -122,3 +122,11 @@
     display: none;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .main-nav__item--logo::after {
+    background-image: url("../../../img/desktop/logotype-desktop.svg");
+    width: 187px;
+    height: 97px;
+  }
+}

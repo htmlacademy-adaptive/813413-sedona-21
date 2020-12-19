@@ -32,3 +32,12 @@
     width: 200px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .color-card__text {
+    width: 275px;
+  }
+  .color-card__desktop-text {
+    width: 230px;
+  }
+}

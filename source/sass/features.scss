@@ -54,3 +54,16 @@
     margin: 15px 0 20px 0;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .features__container {
+    background-image: url("../img/desktop/photo-bridge.jpg");
+    background-size: auto;
+  }
+  .features__text {
+    width: 290px;
+  }
+  .features__text-width {
+    width: 270px;
+  }
+}
