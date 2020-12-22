@@ -1,4 +1,4 @@
-.page__body {
+.page__container {
   font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -9,13 +9,13 @@
 }
 
 @media (min-width: $tablet-width) {
-  .page__body {
+  .page__container {
     max-width: $tablet-width-container;
   }
 }
 
 @media (min-width: $desktop-width) {
-  .page__body {
+  .page__container {
     max-width: $desktop-width-container;
   }
 }

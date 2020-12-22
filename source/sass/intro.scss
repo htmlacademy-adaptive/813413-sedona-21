@@ -1,41 +1,25 @@
 .intro {
-  background-image: url("../img/header/back-mobile.jpg.jpg");
+  background-image: url("../img/header/logo-mobile.jpg");
   background-repeat: no-repeat;
   width: 320px;
-  height: 332px;
+  height: 390px;
   position: relative;
 }
 
-.intro__title {
-  background-image: url("../../../img/header/text-index.svg");
-  background-repeat: no-repeat;
-  width: 320px;
-  height: 332px;
-  top: 27%;
-  left: 5%;
-  position: absolute;
-}
 
 @media (min-width: $tablet-width) {
   .intro {
     margin: 0 auto;
-    background-image: url("../img/tablet/bg-tablet-desktop.jpg");
+    background-image: url("../img/tablet/logo-tablet.jpg");
     width: 767px;
     height: 518px;
-  }
-  .intro__title {
-    background-image: url("../../../img/tablet/text-index-tablet.svg");
-    width: 461px;
-    height: 350px;
-    top: 15%;
-    left: 19%;
   }
 }
 
 @media (min-width: $desktop-width) {
   .intro {
     margin: 0 auto;
-    background-image: url("../img/desktop/intro.jpg");
+    background-image: url("../img/desktop/logo-desktop.jpg");
     width: 1200px;
     height: 518px;
   }
