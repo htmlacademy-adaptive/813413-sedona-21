@@ -23,7 +23,9 @@
   .features {
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
     margin-top: 59px;
+    max-width: 768px;
   }
   .features__container {
     background-image: url("../img/tablet/devil-bridge.jpg");
@@ -56,6 +58,9 @@
 }
 
 @media (min-width: $desktop-width) {
+  .features {
+    max-width: 1200px;
+  }
   .features__container {
     background-image: url("../img/desktop/photo-bridge.jpg");
     background-size: auto;

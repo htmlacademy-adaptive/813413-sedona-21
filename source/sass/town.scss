@@ -63,6 +63,7 @@
 @media (min-width: $tablet-width) {
   .town {
     margin-top: 40px;
+    max-width: 768px;
   }
   .town__title,
   .town__text {
@@ -73,6 +74,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 58px;
+    position: relative;
   }
   .town__img {
     display: none;
@@ -82,11 +86,6 @@
     background-repeat: no-repeat;
     width: 66%;
     height: 253px;
-  }
-  .town__container{
-    margin: 0 auto;
-    margin-top: 58px;
-    position: relative;
   }
   .town__housing,
   .town__souvenirs,
@@ -154,5 +153,8 @@
   }
   .town__img-container {
     background-image: url("../img/desktop/photo-city-desktop.jpg");
+  }
+  .town {
+    max-width: 1200px;
   }
 }
