@@ -106,6 +106,8 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 94px 0 60px;
+    max-width: 768px;
+    margin: 0 auto;
   }
   .social__title,
   .social__dev {
@@ -113,5 +115,15 @@
   }
   .social__dev::after {
     left: 111%;
+  }
+  .social__dev {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .social {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
