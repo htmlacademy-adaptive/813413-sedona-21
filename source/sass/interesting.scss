@@ -37,3 +37,41 @@
   display: block;
   margin-top: 40px;
 }
+
+@media (min-width: $tablet-width) {
+  .interesting {
+    width: 768px;
+    margin: 0 auto;
+    margin-top: 58px;
+    margin-bottom: 50px;
+  }
+  .interesting__title {
+    font-size: 26px;
+  }
+  .interesting__text {
+    word-wrap: 400px;
+  }
+  .interesting__map {
+    display: none;
+  }
+  .interesting__map-container {
+    background-image: url("../img/tablet/tablet-map.jpg");
+    height: 350px;
+    width: 768px;
+    margin-top: 58px;
+  }
+  .interesting__search {
+    max-width: 458px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .interesting {
+    width: 1200px;
+  }
+  .interesting__map-container {
+    background-image: url("../img/desktop/map-desktop.jpg");
+    width: 1200px;
+  }
+}
