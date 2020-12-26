@@ -337,3 +337,90 @@
     margin-top: 78px;
   }
 }
+
+
+@media (min-width: $desktop-width) {
+  .form-feedback {
+    max-width: 960px;
+  }
+  .form-feedback__title-impression {
+    padding-left: 74px;
+  }
+  .form-feedback__first-area,
+  .form-feedback__second-area,
+  .form-feedback__third-area {
+    max-width: 350px;
+  }
+  .form-feedback__representation {
+    width: 400px;
+  }
+  .form-feedback__first-area {
+    padding: 19px 105px 19px 26px;
+  }
+  .form-feedback__second-area,
+  .form-feedback__third-area {
+    padding: 19px 74px 19px 15px;
+  }
+  .form-feedback__connection{
+    max-width: 960px;
+    margin: 0;
+    margin-top: 50px;
+  }
+  .form-feedback__impression-item {
+    margin-top: 53px;
+  }
+  .form-feedback__data-info input {
+    padding: 20px 20px 20px 38px;
+  }
+  .form-feedback__data-info label {
+    margin: 0;
+  }
+  .form-feedback__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 960px;
+  }
+  .form-feedback__decoration-phone-container{
+    top: 7%;
+    left: 87%;
+  }
+  .form-feedback__decoration-mail-container {
+    top: 7%;
+    left: 87%;
+  }
+  .form-feedback__attractions {
+    max-width: 960px;
+    margin-top: 50px;
+  }
+  .form-feedback__attractions-list {
+    padding: 0;
+    padding: 0;
+    justify-content: space-between;
+    width: 960px;
+  }
+  .form-feedback__attractions-item,
+  .form-feedback__attractions-item:last-child {
+    margin-left: 0;
+  }
+  .form-feedback__attractions-check-box{
+    margin-left: -59px;
+  }
+  .form-feedback__title-connection {
+    text-align: center;
+  }
+  .form-feedback__title-attractions {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  .form-feedback__description {
+    max-width: 960px;
+  }
+  .form-feedback__description-text {
+    min-width: 945px;
+  }
+  .form-feedback__button {
+    padding: 17px 153px;
+    max-width: 480px;
+  }
+}
