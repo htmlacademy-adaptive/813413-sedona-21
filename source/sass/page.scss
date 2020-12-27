@@ -11,11 +11,13 @@
 @media (min-width: $tablet-width) {
   .page__container {
     max-width: $tablet-width-container;
+    margin: 0 auto;
   }
 }
 
 @media (min-width: $desktop-width) {
   .page__container {
     max-width: $desktop-width-container;
+    margin: 0 auto;
   }
 }

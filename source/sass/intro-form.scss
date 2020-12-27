@@ -1,17 +1,25 @@
 .intro-form {
-  background-image: url("../img/form/back-desktop.jpg");
+  background-image: url("../img/form/logo-form-mobile.jpg");
   background-repeat: no-repeat;
   width: 320px;
   height: 170px;
   position: relative;
 }
 
-.intro-form__title {
-  background-image: url("../img/form/SEDONA.svg");
-  background-repeat: no-repeat;
-  width: 320px;
-  height: 50px;
-  top: 45%;
-  left: 14%;
-  position: absolute;
+@media (min-width: $tablet-width) {
+  .intro-form {
+    background-image: url("../img/form/logo-form-tablet.jpg");
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .intro-form {
+    background-image: url("../img/form/logo-form-desktop.jpg");
+    width: 1200px;
+    height: 370px;
+  }
 }
