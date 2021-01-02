@@ -42,3 +42,37 @@
   text-align: center;
   margin-bottom: 50px;
 }
+
+@media (min-width: $tablet-width) {
+  .media__photo {
+    border-top: none;
+  }
+  .media__img {
+    display: none;
+  }
+  .media__img-container {
+    background-image: url("../img/tablet/photo-1-tablet.jpg");
+    width: 640px;
+    height: 400px;
+  }
+  .media__img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 648px;
+    margin: 0 auto;
+  }
+  .media__img-container-small {
+    width: 324px;
+    height: 267px;
+    background-repeat: no-repeat;
+  }
+  .media__img-1 {
+    background-image: url("../img/tablet/photo-2-tablet.jpg");
+  }
+  .media__img-2 {
+    background-image: url("../img/tablet/photo-3-tablet.jpg");
+  }
+  .media__img-3 {
+    background-image: url("../img/tablet/photo-4-tablet.jpg");
+  }
+}

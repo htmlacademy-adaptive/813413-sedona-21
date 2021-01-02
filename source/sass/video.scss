@@ -1,0 +1,71 @@
+.video {
+  margin-bottom: 64pxpx;
+}
+.video__control {
+  background-image: url(../img/catalog/video-mobile.jpg);
+  width: 320px;
+  height: 201px;
+}
+.video__control-panel{
+  width: 280px;
+  height: 45px;
+  background-color: $gray-input;
+  position: relative;
+  top: 202px;
+  left: 20px;
+}
+.video__control-volume {
+  width: 280px;
+  height: 45px;
+  background-color: $basic-black;
+  opacity: 0.6;
+  position: relative;
+  left: 20px;
+  top: 111px;
+}
+
+.video__control-scale {
+  background: $basic-white;
+  opacity: 0.2;
+  width: 235px;
+  height: 3px;
+  top: 22px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.video__control-bar {
+  width: 9px;
+  height: 9px;
+  background: $basic-white;
+  border-radius: 50%;
+  position: absolute;
+  top: 19px;
+  left: 56px;
+}
+
+.video__control-button {
+  border: 0;
+}
+
+.video__control-replay,
+.video__control-sub,
+.video__control-fullscreen {
+  position: absolute;
+}
+
+.video__control-replay {
+  top: 13px;
+  left: 16px;
+}
+
+.video__control-sub {
+  top: 13px;
+  left: 168px;
+}
+
+.video__control-fullscreen {
+  top: 13px;
+  left: 232px;
+}

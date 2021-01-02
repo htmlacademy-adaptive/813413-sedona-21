@@ -1,5 +1,5 @@
 .description__title,
-.description__form-title {
+.description__general-title {
   margin: 0 auto;
   margin-top: 20px;
   text-transform: uppercase;
@@ -21,16 +21,16 @@
 @media (min-width: $tablet-width) {
   .description__title,
   .description__text,
-  .description__form-title {
+  .description__general-title {
     width: 520px;
   }
   .description__title {
     font-size: 21px;
   }
-  .description__form-title {
+  .description__general-title {
     font-size: 30px;
   }
-  .description__form-text {
+  .description__general-text {
     width: 440px;
   }
 }
