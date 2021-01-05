@@ -52,7 +52,7 @@
   }
   .media__img-container {
     background-image: url("../img/tablet/photo-1-tablet.jpg");
-    width: 640px;
+    width: 648px;
     height: 400px;
   }
   .media__img-gallery{
@@ -74,5 +74,32 @@
   }
   .media__img-3 {
     background-image: url("../img/tablet/photo-4-tablet.jpg");
+  }
+  .media__caption-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80px;
+    justify-content: space-between;
+    background-color: $gray-input;
+  }
+  .media__likes {
+    padding: 30px 0 0 0;
+    margin-right: 20px;
+  }
+  .media__caption-name {
+    margin-left: 20px;
+  }
+  .media__title {
+    padding: 15px 0 0 0;
+  }
+  .media__likes::before {
+    top: 29px;
+    left: -32px;
+  }
+  .media__inner-container {
+    margin: 0;
+  }
+  .media__caption-color {
+    background-color: $gray-input2;
   }
 }

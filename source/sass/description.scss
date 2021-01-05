@@ -19,6 +19,10 @@
 }
 
 @media (min-width: $tablet-width) {
+  .description {
+    margin-bottom: 65px
+  }
+
   .description__title,
   .description__text,
   .description__general-title {
