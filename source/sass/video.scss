@@ -1,8 +1,8 @@
 .video {
-  margin-bottom: 64pxpx;
+  margin-bottom: 64px;
 }
 .video__control {
-  background-image: url(../img/catalog/video-mobile.jpg);
+  background-image: url("../img/catalog/video-mobile.jpg");
   width: 320px;
   height: 201px;
 }
@@ -68,4 +68,51 @@
 .video__control-fullscreen {
   top: 13px;
   left: 232px;
+}
+
+@media (min-width: $tablet-width) {
+  .video {
+    max-width: 648px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .video__control {
+    background-image: url("../img/tablet/video-tablet.jpg");
+    width: 648px;
+    height: 500px;
+  }
+  .video__control-volume {
+    width: 648px;
+    height: 93px;
+    left: 0px;
+    top: 362px;
+  }
+  .video__control-scale {
+    width: 389px;
+    top: 43px;
+    left: 286px;
+    border: 1px solid #000000;
+  }
+  .video__control-bar {
+    top: 41px;
+    left: 205px;
+  }
+  .video__control-panel {
+    background-color: transparent;
+    top: 429px;
+    left: 20px;
+    z-index: 1;
+  }
+  .video__control-sub {
+    left: 491px;
+  }
+  .video__control-fullscreen {
+    left: 565px;
+  }
+  .video__control-button {
+    background-color: transparent;
+  }
+  .video__icon path{
+    fill: $basic-white;
+  }
 }
