@@ -137,16 +137,35 @@
     position: relative;
   }
   .media__caption-container {
-    background-color: transparent;
+    background-color: $basic-black;
+    opacity: 0.3;
     position: absolute;
+    top: 186px;
+    color: $basic-white;
+    width: 400px;
   }
   .media__caption-first {
     top: 320px;
     color: $basic-white;
+    width: 1200px;
   }
   .media__like-container {
     position: absolute;
     top: 29px;
     left: 205px;
+  }
+  .media__like-position {
+    top: 29px;
+    left: 174px;
+  }
+  .media__like-icon path {
+    fill: $basic-white;
+    opacity: 1;
+  }
+  .media__caption-opacity {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
   }
 }
