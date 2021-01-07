@@ -1,5 +1,6 @@
 .features__block {
   background: $basic-gray;
+  position: relative;
 }
 
 .features__title {
@@ -17,6 +18,36 @@
   text-transform: uppercase;
   text-align: center;
   margin: 0;
+}
+
+.features__number {
+  margin-top: 7px;
+}
+
+.features__text-width {
+  width: 255px;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+
+.features-text {
+  margin-top: 10px;
+}
+
+.features__block-border::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: url("../img/main/border-line.png");
+  width: 280px;
+  height: 1px;
+  left: 6%;
+  top: -4%;
+}
+
+.features__block-container {
+  padding: 18px 0px 25px 0;
 }
 
 @media (min-width: $tablet-width) {
