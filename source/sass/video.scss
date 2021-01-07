@@ -116,3 +116,27 @@
     fill: $basic-white;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .video {
+    max-width: 800px;
+}
+  .video__control {
+    background-image: url("../img/desktop/video-desktop.jpg");
+    width: 800px;
+    height: 500px;
+  }
+  .video__control-volume {
+    width: 800px;
+  }
+  .video__control-fullscreen {
+    left: 712px;
+  }
+  .video__control-sub {
+    left: 644px;
+  }
+  .video__control-scale {
+    width: 540px;
+    left: 365px;
+  }
+}
