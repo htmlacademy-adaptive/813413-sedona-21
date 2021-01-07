@@ -55,15 +55,15 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-top: 59px;
+    margin-top: 64px;
     max-width: 768px;
   }
   .features__container {
     background-image: url("../img/tablet/devil-bridge.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 66%;
-    height: 253px;
+    width: 512px;
+    height: 256px;
     order: -1;
   }
   .features__container img{
@@ -73,15 +73,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 33.1%;
+    width: 256px;
     height: 256px;
+  }
+  .features__block-border::before {
+    display: none;
+  }
+  .features__title {
+    font-size: 22px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 25px;
   }
   .features__text {
     width: 165px;
     margin: 0 auto;
   }
   .features__text-width {
-    width: 155px;
+    width: 180px;
+  }
+  .features__number-tablet {
+    margin: 11px 0 21px 0;
   }
   .features__number {
     margin: 15px 0 20px 0;

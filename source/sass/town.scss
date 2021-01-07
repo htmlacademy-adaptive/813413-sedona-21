@@ -70,9 +70,21 @@
     margin-top: 40px;
     max-width: 768px;
   }
+  .town__title {
+    font-size: 21px;
+  }
+  .town__text {
+    margin-top: 20px;
+}
   .town__title,
   .town__text {
     text-align: center;
+  }
+  .town__text-tablet {
+    width: 155px;
+    margin: 0 auto;
+    margin-top: 23px;
+    line-height: 1.6;
   }
   .town,
   .town__container {
@@ -80,17 +92,20 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 auto;
-    margin-top: 58px;
+    margin-top: 53px;
     position: relative;
   }
   .town__img {
     display: none;
   }
   .town__img-container {
-    background-image: url("../img/desktop/photo-city-desktop.jpg");
+    background-image: url("../img/tablet/photo-city-tablet.jpg");
     background-repeat: no-repeat;
-    width: 66%;
-    height: 253px;
+    width: 512px;
+    height: 256px;
+  }
+  .town__souvenirs {
+    order: 1;
   }
   .town__housing,
   .town__souvenirs,
@@ -116,18 +131,18 @@
   }
   .town__housing::before {
     background-image: url("../img/tablet/icon-house-tablet.svg");
-    top: 10%;
+    top: 4%;
     left: 60px;
   }
   .town__souvenirs::before {
     background-image: url("../img/tablet/icon-gift-tablet.svg");
-    top: 6%;
-    left: 321px;
+    top: 2%;
+    left: 576px;
   }
   .town__food::before {
     background-image: url("../img/tablet/icon-burger-tablet.svg");
-    top: 9%;
-    left: 573px;
+    top: 5%;
+    left: 315px;
   }
 }
 
@@ -158,6 +173,7 @@
   }
   .town__img-container {
     background-image: url("../img/desktop/photo-city-desktop.jpg");
+    width: 800px;
   }
   .town {
     max-width: 1200px;
