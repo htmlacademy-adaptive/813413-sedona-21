@@ -50,8 +50,8 @@
             </div>
             <form class="form-feedback" action="https://echo.htmlacademy.ru" method="POST">
               <div class="form-feedback__representation">
-                <h3 class="form-feedback__title">Представьтесь:</h3>
-                <div class="form-feedback__basic-info">
+                <h3 class="form-feedback__title form-feedback__title-repesentation">Представьтесь:</h3>
+                <div class="form-feedback__basic-info form-feedback__basic-info-posititon">
                   <label for="name">Имя*:
                     <input class="form-feedback__first-area" type="text" name="name" id="name" placeholder="Петр">
                   </label>
@@ -76,7 +76,7 @@
                         <div class="form-feedback__decoration-phone-container"></div>
                       </label>
                     </div>
-                    <div class="form-feedback__data-info">
+                    <div class="form-feedback__data-info form-feedback__data-info-position">
                       <label for="mail">Электронная почта:
                         <input type="email" name="email" id="mail" placeholder="Введите e-mail">
                       </label>
@@ -142,8 +142,10 @@
                   <textarea class="form-feedback__description-text" name="text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
                 </div>
               </div>
-              <button class="form-feedback__button" type="submit">Отправить отзыв</button>
-              <span class="form-feedback__addition">* — обязательные поля</span>
+              <div class="form-feedback__button-container">
+                <button class="form-feedback__button" type="submit">Отправить отзыв</button>
+                <span class="form-feedback__addition">* — обязательные поля</span>
+              </div>
             </form>
           </div>
         </section>
