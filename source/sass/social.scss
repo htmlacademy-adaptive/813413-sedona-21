@@ -111,19 +111,23 @@
   .social {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 94px 0 60px;
-    max-width: 768px;
+    max-width: 647px;
     margin: 0 auto;
+  }
+  .social__links {
+    margin: 0 auto;
+    margin-left: 109px;
   }
   .social__title,
   .social__dev {
     margin: 0;
   }
   .social__dev::after {
-    left: 111%;
+    left: 108%;
+    top: -28%;
   }
   .social__dev {
-    margin-right: 30px;
+    margin-right: 33px;
   }
 }
 
