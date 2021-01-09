@@ -39,3 +39,12 @@
     margin-top: 14px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .description {
+    margin-top: 44px;
+  }
+  .description__text {
+    margin-top: 32px;
+  }
+}

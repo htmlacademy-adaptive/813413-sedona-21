@@ -289,6 +289,9 @@
 .form-feedback__addition {
   display: none;
 }
+.form-feedback__data-info-hide {
+  display: none;
+}
 
 @media (min-width: $tablet-width) {
   .form-feedback {
@@ -446,9 +449,35 @@
 @media (min-width: $desktop-width) {
   .form-feedback {
     max-width: 960px;
+    margin-top: 59px;
+  }
+  .form-feedback__title {
+    margin-top: 0;
+    text-align: start;
+  }
+  .form-feedback__impression {
+    margin: 0;
   }
   .form-feedback__title-impression {
-    padding-left: 74px;
+    margin-left: 82px;
+  }
+  .form-feedback__representation,
+  .form-feedback__basic-info {
+    margin: 0;
+  }
+  .form-feedback__representation {
+    width: 400px;
+    margin-left: auto;
+  }
+  .form-feedback__basic-info-posititon{
+    margin-top: 37px;
+  }
+  .form-feedback__impression-list {
+    padding: 0px;
+    margin-left: 24px;
+  }
+  .form-feedback__title-repesentation {
+    margin: 0;
   }
   .form-feedback__first-area,
   .form-feedback__second-area,
@@ -461,20 +490,24 @@
   .form-feedback__first-area {
     padding: 19px 105px 19px 26px;
   }
-  .form-feedback__second-area,
+  .form-feedback__second-area {
+    padding: 19px 71px 19px 23px;
+    margin-left: 7px;
+  }
   .form-feedback__third-area {
-    padding: 19px 74px 19px 15px;
+    padding: 19px 76px 19px 21px;
+    margin-left: 7px;
   }
   .form-feedback__connection{
     max-width: 960px;
     margin: 0;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   .form-feedback__impression-item {
     margin-top: 53px;
   }
   .form-feedback__data-info input {
-    padding: 20px 20px 20px 38px;
+    padding: 20px 95px 20px 18px;
   }
   .form-feedback__data-info label {
     margin: 0;
@@ -485,13 +518,23 @@
     justify-content: space-between;
     width: 960px;
   }
+  .form-feedback__data-info-hide {
+    display: inline-block;
+  }
+  .form-feedback__data-info-visual {
+    display: none;
+  }
+  .form-feedback__data-info {
+    margin: 0;
+    margin-top: 65px;
+  }
   .form-feedback__decoration-phone-container{
-    top: 7%;
-    left: 87%;
+    top: 14%;
+    left: 86%;
   }
   .form-feedback__decoration-mail-container {
-    top: 7%;
-    left: 87%;
+    top: 14%;
+    left: 88%;
   }
   .form-feedback__attractions {
     max-width: 960px;
