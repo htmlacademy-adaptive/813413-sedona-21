@@ -103,10 +103,11 @@
 @media (min-width: $desktop-width) {
   .features {
     max-width: 1200px;
+    margin-top: 81px;
   }
   .features__container {
     background-image: url("../img/desktop/photo-bridge.jpg");
-    background-size: auto;
+    width: 800px;
   }
   .features__text {
     width: 290px;
@@ -114,4 +115,7 @@
   .features__text-width {
     width: 270px;
   }
+  .features__block {
+    min-width: 400px;
+}
 }
