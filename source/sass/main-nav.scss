@@ -61,17 +61,11 @@
   position: relative;
 }
 
-.main-nav__item--logo::after {
-  content: "";
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  width: 102px;
-  height: 84px;
+.main-nav__link-logo {
   position: absolute;
-  background-image: url("../../../img/menu/logotype-mobile.svg");
-  top: 0%;
-  left: 35%;
   z-index: 1;
+  top: 0%;
+  left: 34%;
 }
 
 .main-nav__toggle {
@@ -118,9 +112,9 @@
     background-color: $basic-white;
     box-shadow: none;
   }
-  .main-nav__item--logo::after {
-    transform: translateX(-50%);
-    left: 50%;
+  .main-nav__link-logo {
+    left: 17%;
+    top: 0;
   }
   .main-nav__toggle {
     display: none;
@@ -135,5 +129,9 @@
     background-image: url("../../../img/desktop/logotype-desktop.svg");
     width: 187px;
     height: 97px;
+  }
+  .main-nav__link-logo {
+    top: 0;
+    left: 12%;
   }
 }
