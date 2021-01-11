@@ -1,5 +1,6 @@
 .video {
-  margin-bottom: 64px;
+  margin-bottom: 143px;
+  margin-top: 31px;
 }
 .video__control {
   background-image: url("../img/catalog/video-mobile.jpg");
@@ -8,7 +9,7 @@
 }
 .video__control-panel{
   width: 280px;
-  height: 45px;
+  height: 66px;
   background-color: $gray-input;
   position: relative;
   top: 202px;
@@ -21,7 +22,7 @@
   opacity: 0.6;
   position: relative;
   left: 20px;
-  top: 111px;
+  top: 90px;
 }
 
 .video__control-scale {
@@ -56,17 +57,17 @@
 }
 
 .video__control-replay {
-  top: 13px;
-  left: 16px;
+  top: 22px;
+  left: 20px;
 }
 
 .video__control-sub {
-  top: 13px;
+  top: 22px;
   left: 168px;
 }
 
 .video__control-fullscreen {
-  top: 13px;
+  top: 22px;
   left: 232px;
 }
 

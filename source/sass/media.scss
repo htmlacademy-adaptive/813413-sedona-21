@@ -4,10 +4,11 @@
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
+  margin-top: 28px;
 }
 
 .media__inner-container {
-  margin: 21px 0 15px 0;
+  margin: 23px 0 15px 0;
 }
 
 .media__title,
@@ -24,13 +25,28 @@
 .media__likes {
   font-weight: 700;
   position: relative;
-  margin-left: 39px;
+  display: block;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 36px;
 }
 
 .media__like-container {
   position: absolute;
-  top: 360px;
+  top: 372px;
   left: 20px;
+}
+
+.media__like-container-1,
+.media__like-container-2,
+.media__like-container-3 {
+  top: 345px;
+}
+
+.media__inner-img-1,
+.media__inner-img-2,
+.media__inner-img-3 {
+  margin-top: -4px;
 }
 
 .media__video {

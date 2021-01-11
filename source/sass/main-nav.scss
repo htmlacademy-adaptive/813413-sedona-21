@@ -15,7 +15,7 @@
   background-color: $basic-blue;
   color: $basic-white;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 18px;
   text-transform: uppercase;
   text-decoration: none;
   padding: 15px 50px;
@@ -40,19 +40,19 @@
 }
 
 .main-nav__link--size-a {
-  padding: 15px 131px;;
+  padding: 15px 122px;;
 }
 
 .main-nav__link--size-b {
-  padding: 15px 111px;
+  padding: 15px 97px;
 }
 
 .main-nav__link--size-c {
-  padding: 15px 108px;
+  padding: 15px 93px;
 }
 
 .main-nav__link--size-d {
-  padding: 15px 111px 13px 111px;
+  padding: 15px 96px 13px 96px;
 }
 
 .main-nav__item--logo {
@@ -71,8 +71,8 @@
 .main-nav__toggle {
   position: absolute;
   background-image: url("../../../img/menu/icon-menu.svg");
-  top: 236px;
-  right: 17px;
+  top: 238px;
+  right: 19px;
   width: 23px;
   height: 22px;
   background-color: transparent;

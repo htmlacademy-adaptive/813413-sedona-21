@@ -8,6 +8,10 @@
   width: 272px;
 }
 
+.description__catalog-title {
+  margin-top: 20px;
+}
+
 .description__text {
   text-transform: uppercase;
   font-size: 14px;
@@ -17,6 +21,20 @@
   margin-top: 27px;
   line-height: 1.8;
   width: 285px;
+}
+
+.description__catalog-subtitle,
+.description__catalog-subtext {
+  margin: 0 auto;
+}
+
+.description__catalog-subtitle {
+  margin-top: 34px;
+}
+
+.description__catalog-subtext {
+  margin-top: 28px;
+  width: 258px;
 }
 
 @media (min-width: $tablet-width) {
