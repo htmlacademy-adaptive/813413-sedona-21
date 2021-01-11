@@ -1,0 +1,142 @@
+.video {
+  margin-bottom: 64px;
+}
+.video__control {
+  background-image: url("../img/catalog/video-mobile.jpg");
+  width: 320px;
+  height: 201px;
+}
+.video__control-panel{
+  width: 280px;
+  height: 45px;
+  background-color: $gray-input;
+  position: relative;
+  top: 202px;
+  left: 20px;
+}
+.video__control-volume {
+  width: 280px;
+  height: 45px;
+  background-color: $basic-black;
+  opacity: 0.6;
+  position: relative;
+  left: 20px;
+  top: 111px;
+}
+
+.video__control-scale {
+  background: $basic-white;
+  opacity: 0.2;
+  width: 235px;
+  height: 3px;
+  top: 22px;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.video__control-bar {
+  width: 9px;
+  height: 9px;
+  background: $basic-white;
+  border-radius: 50%;
+  position: absolute;
+  top: 19px;
+  left: 56px;
+}
+
+.video__control-button {
+  border: 0;
+}
+
+.video__control-replay,
+.video__control-sub,
+.video__control-fullscreen {
+  position: absolute;
+}
+
+.video__control-replay {
+  top: 13px;
+  left: 16px;
+}
+
+.video__control-sub {
+  top: 13px;
+  left: 168px;
+}
+
+.video__control-fullscreen {
+  top: 13px;
+  left: 232px;
+}
+
+@media (min-width: $tablet-width) {
+  .video {
+    max-width: 648px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .video__control {
+    background-image: url("../img/tablet/video-tablet.jpg");
+    width: 648px;
+    height: 500px;
+  }
+  .video__control-volume {
+    width: 648px;
+    height: 93px;
+    left: 0px;
+    top: 362px;
+  }
+  .video__control-scale {
+    width: 389px;
+    top: 43px;
+    left: 286px;
+    border: 1px solid #000000;
+  }
+  .video__control-bar {
+    top: 41px;
+    left: 205px;
+  }
+  .video__control-panel {
+    background-color: transparent;
+    top: 429px;
+    left: 20px;
+    z-index: 1;
+  }
+  .video__control-sub {
+    left: 491px;
+  }
+  .video__control-fullscreen {
+    left: 565px;
+  }
+  .video__control-button {
+    background-color: transparent;
+  }
+  .video__icon path{
+    fill: $basic-white;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .video {
+    max-width: 800px;
+}
+  .video__control {
+    background-image: url("../img/desktop/video-desktop.jpg");
+    width: 800px;
+    height: 500px;
+  }
+  .video__control-volume {
+    width: 800px;
+  }
+  .video__control-fullscreen {
+    left: 712px;
+  }
+  .video__control-sub {
+    left: 644px;
+  }
+  .video__control-scale {
+    width: 540px;
+    left: 365px;
+  }
+}

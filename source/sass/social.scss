@@ -1,7 +1,12 @@
+.social {
+  margin-top: 32px;
+}
+
 .social__title {
   font-size: 21px;
   text-transform: uppercase;
   text-align: center;
+  margin: 0px 0 15px 0px;
 }
 
 .social__item {
@@ -29,10 +34,10 @@
   background-position: 0 0;
   background-repeat: no-repeat;
   background-image: url("../img/footer/icon-facebook.svg");
-  width: 16px;
-  height: 15px;
-  top: 36%;
-  left: 41%;
+  width: 11px;
+  height: 19px;
+  top: 31%;
+  left: 42%;
 }
 
 .social__item:last-child::before {
@@ -74,6 +79,7 @@
 .social__links {
   max-width: 162px;
   margin: 0 auto;
+  margin-top: 44px;
 }
 
 .social__dev {
@@ -85,8 +91,8 @@
   text-decoration: none;
   color: $basic-black;
   position: relative;
-  margin-top: 30px;
-  margin-bottom: 21px;
+  margin-top: 55px;
+  padding-right: 5px;
 }
 
 .social__dev::after {
@@ -97,7 +103,7 @@
   width: 30px;
   height: 35px;
   top: -16%;
-  left: 84%;
+  left: 80%;
   position: absolute;
 }
 
@@ -105,25 +111,32 @@
   .social {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 94px 0 60px;
-    max-width: 768px;
+    max-width: 647px;
     margin: 0 auto;
+  }
+  .social__links {
+    margin: 0 auto;
+    margin-left: 109px;
   }
   .social__title,
   .social__dev {
     margin: 0;
   }
   .social__dev::after {
-    left: 111%;
+    left: 108%;
+    top: -28%;
   }
   .social__dev {
-    margin-right: 30px;
+    margin-right: 33px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .social {
     max-width: 960px;
+    margin: 0 auto;
+  }
+  .social__links {
     margin: 0 auto;
   }
 }

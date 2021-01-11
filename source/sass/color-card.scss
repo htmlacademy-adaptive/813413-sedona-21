@@ -1,5 +1,27 @@
 .color-card {
   background-color: $basic-blue;
+  margin-top: 30px;
+  position: relative;
+}
+
+.color-card__container {
+  padding: 52px 0 35px 0;
+}
+
+.color-card__container-fix {
+  padding: 37px 0 30px 0;
+}
+
+.color-card__container-deg::before {
+  content: "";
+  background-image: url("../img/main/deg-mobile.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 320px;
+  height: 37px;
+  top: -8%;
+  left: 0%;
+  position: absolute;
 }
 
 .color-card__title {
@@ -20,6 +42,14 @@
   margin: 0;
 }
 
+.color-card__number {
+  margin-top: 8px;
+}
+
+.color-card__text {
+  margin-top: 9px;
+}
+
 @media (min-width: $tablet-width) {
   .color-card {
     width: 33.3%;
@@ -27,9 +57,23 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
+  }
+  .color-card__title{
+    font-size: 21px;
+    margin: 0 auto;
+    width: 150px;
   }
   .color-card__text {
-    width: 200px;
+    width: 190px;
+    line-height: 1.5;
+    margin-top: 22px;
+  }
+  .color-card__container {
+    padding: 29px 0 28px 0;
+  }
+  .color-card__container-deg::before {
+    display: none;
   }
 }
 
