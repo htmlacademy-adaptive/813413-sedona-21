@@ -95,16 +95,18 @@
   padding-right: 5px;
 }
 
-.social__dev::after {
-  content: "";
-  background-repeat: no-repeat;
-  background-position: 0 0;
-  background-image: url("../img/footer/htmlacademy.svg");
-  width: 30px;
-  height: 35px;
-  top: -16%;
-  left: 80%;
+.social__dev-icon-container {
   position: absolute;
+  top: -7%;
+  left: 108%;
+}
+
+.social__dev-icon path:hover {
+  fill: $basic-blue;
+}
+
+.social__dev-icon path:disabled {
+  fill: $basic-gray;
 }
 
 @media (min-width: $tablet-width) {
