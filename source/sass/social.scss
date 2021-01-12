@@ -113,6 +113,7 @@
     flex-wrap: wrap;
     max-width: 647px;
     margin: 0 auto;
+    margin-top: 31px;
   }
   .social__links {
     margin: 0 auto;
@@ -136,7 +137,14 @@
     max-width: 960px;
     margin: 0 auto;
   }
+  .social-feedback {
+    margin-top: 112px;
+  }
   .social__links {
     margin: 0 auto;
+    margin-bottom: 36px;
+  }
+  .social__dev::after {
+    top: -6%;
   }
 }

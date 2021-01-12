@@ -25,7 +25,13 @@
                 <a class="main-nav__link main-nav__link--size-d" href="https://htmlacademy.ru/"><span>Html Academy</span></a>
               </li>
               <li class="main-nav__item main-nav__item--logo">
-                <a class="main-nav__link-logo" href="#"></a>
+                <a class="main-nav__link-logo" href="#">
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="img/desktop/logotype-desktop.svg">
+                    <source media="(min-width: 768px)" srcset="img/menu/logotype-mobile.svg">
+                    <img src="img/menu/logotype-mobile.svg" width="187" height="97" alt="Логотип Седона">
+                  </picture>
+                </a>
               </li>
               <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
             </ul>
@@ -50,8 +56,8 @@
             </div>
             <form class="form-feedback" action="https://echo.htmlacademy.ru" method="POST">
               <div class="form-feedback__representation">
-                <h3 class="form-feedback__title">Представьтесь:</h3>
-                <div class="form-feedback__basic-info">
+                <h3 class="form-feedback__title form-feedback__title-repesentation">Представьтесь:</h3>
+                <div class="form-feedback__basic-info form-feedback__basic-info-posititon">
                   <label for="name">Имя*:
                     <input class="form-feedback__first-area" type="text" name="name" id="name" placeholder="Петр">
                   </label>
@@ -68,15 +74,16 @@
                 </div>
               </div>
               <div class="form-feedback__connection">
-                <h3 class="form-feedback__title form-feedback__title-connection">Контактная информация:</h3>
+                <h3 class="form-feedback__title form-feedback__title-connection form-feedback__title-mob">Контактная информация:</h3>
                   <div class="form-feedback__container">
                     <div class="form-feedback__data-info">
-                      <label for="phone">Контактный телефон:
+                      <label for="phone"><span class="form-feedback__data-info-visual">Контактный телефон*:</span>
+                        <span class="form-feedback__data-info-hide">Телефон*:</span>
                         <input type="tel" name="tel" id="phone" placeholder="Введите телефон">
                         <div class="form-feedback__decoration-phone-container"></div>
                       </label>
                     </div>
-                    <div class="form-feedback__data-info">
+                    <div class="form-feedback__data-info form-feedback__data-info-position">
                       <label for="mail">Электронная почта:
                         <input type="email" name="email" id="mail" placeholder="Введите e-mail">
                       </label>
@@ -85,7 +92,7 @@
                   </div>
               </div>
               <div class="form-feedback__impression">
-                <h3 class="form-feedback__title form-feedback__title-impression">Ваше общее впечатление:</h3>
+                <h3 class="form-feedback__title form-feedback__title-impression form-feedback__title-mob">Ваше общее впечатление:</h3>
                 <ul class="form-feedback__impression-list">
                   <li class="form-feedback__impression-item">
                     <label class="form-feedback__check" for="check-positive">
@@ -108,7 +115,7 @@
                 </ul>
               </div>
               <div class="form-feedback__attractions">
-                <h3 class="form-feedback__title form-feedback__title-attractions">Посещаемые достопримечательности:</h3>
+                <h3 class="form-feedback__title form-feedback__title-attractions">Посещенные достопримечательности:</h3>
                 <ul class="form-feedback__attractions-list">
                   <li class="form-feedback__attractions-item">
                     <label class="from-feedback__attractions-check" for="bridge">
@@ -142,14 +149,16 @@
                   <textarea class="form-feedback__description-text" name="text" cols="30" rows="10" placeholder="Опишите подробно все свои восторги"></textarea>
                 </div>
               </div>
-              <button class="form-feedback__button" type="submit">Оставить отзыв</button>
-              <span class="form-feedback__addition">* — обязательные поля</span>
+              <div class="form-feedback__button-container">
+                <button class="form-feedback__button" type="submit">Отправить отзыв</button>
+                <span class="form-feedback__addition">* — обязательные поля</span>
+              </div>
             </form>
           </div>
         </section>
       </main>
       <footer class="page-footer">
-        <section class="social">
+        <section class="social social-feedback">
           <h2 class="social__title">#visitsedona</h2>
           <div class="social__links">
             <a class="social__item" href="#"><span class="visually-hidden">twitter</span></a>
