@@ -1,3 +1,19 @@
+.description {
+  position: relative;
+}
+
+.description-border::before {
+  content: "";
+  width: 320px;
+  height: 1px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url("../img/catalog/line.svg");
+  top: -9%;
+  left: 0%;
+  position: absolute;
+}
+
 .description__title,
 .description__general-title {
   margin: 0 auto;

@@ -1,10 +1,33 @@
 .media__photo {
-  border-top: 1px solid $gray-disable;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   position: relative;
-  margin-top: 28px;
+  margin-top: 29px;
+}
+
+.media__photo-main::before {
+  content: "";
+  width: 320px;
+  height: 1px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url("../img/catalog/line.svg");
+  top: 0%;
+  left: 0%;
+  position: absolute;
+}
+
+.media__photo-border::before {
+  content: "";
+  width: 320px;
+  height: 1px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url("../img/catalog/line.svg");
+  top: -7%;
+  left: 0%;
+  position: absolute;
 }
 
 .media__inner-container {
