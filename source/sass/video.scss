@@ -126,6 +126,7 @@
 @media (min-width: $desktop-width) {
   .video {
     max-width: 800px;
+    margin-top: 77px;
 }
   .video__control {
     background-image: url("../img/desktop/video-desktop.jpg");
@@ -136,10 +137,10 @@
     width: 800px;
   }
   .video__control-fullscreen {
-    left: 712px;
+    left: 714px;
   }
   .video__control-sub {
-    left: 644px;
+    left: 651px;
   }
   .video__control-scale {
     width: 540px;
