@@ -98,7 +98,7 @@
 .social__dev-icon-container {
   position: absolute;
   top: -7%;
-  left: 108%;
+  left: 80%;
 }
 
 .social__dev-icon path:hover {
@@ -132,6 +132,11 @@
   .social__dev {
     margin-right: 33px;
   }
+  .social__dev-icon-container {
+    position: absolute;
+    top: -15%;
+    left: 108%;
+  }
 }
 
 @media (min-width: $desktop-width) {
@@ -149,5 +154,10 @@
   }
   .social__dev::after {
     top: -6%;
+  }
+  .social__dev-icon-container {
+    position: absolute;
+    top: -7%;
+    left: 108%;
   }
 }
