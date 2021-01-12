@@ -99,9 +99,11 @@
   }
   .main-nav__item:nth-child(3) {
     order: 2;
+    margin-left: 3px;
   }
   .main-nav__item:nth-child(4) {
     order: 3;
+    margin-left: -3px;
   }
   .main-nav__item:last-child {
     order: 1;
@@ -111,6 +113,7 @@
     color: $basic-black;
     background-color: $basic-white;
     box-shadow: none;
+    font-size: 14px;
   }
   .main-nav__link-logo {
     left: 17%;

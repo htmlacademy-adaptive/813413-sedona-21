@@ -75,7 +75,8 @@
   .video {
     max-width: 648px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 87px;
+    margin-top: 80px;
   }
   .video__control {
     background-image: url("../img/tablet/video-tablet.jpg");
@@ -86,26 +87,30 @@
     width: 648px;
     height: 93px;
     left: 0px;
-    top: 362px;
+    top: 341px;
   }
   .video__control-scale {
     width: 389px;
-    top: 43px;
+    top: 44px;
     left: 286px;
-    border: 1px solid #000000;
+    border: 1px solid $basic-black;
   }
   .video__control-bar {
-    top: 41px;
-    left: 205px;
+    top: 42px;
+    left: 206px;
   }
   .video__control-panel {
     background-color: transparent;
-    top: 429px;
-    left: 20px;
+    top: 420px;
+    left: 17px;
     z-index: 1;
   }
+  .video__control-replay {
+    top: 21px;
+    left: 12px;
+  }
   .video__control-sub {
-    left: 491px;
+    left: 501px;
   }
   .video__control-fullscreen {
     left: 565px;

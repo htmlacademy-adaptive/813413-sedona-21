@@ -64,13 +64,20 @@
   }
   .description__general-title {
     font-size: 30px;
+    margin-top: 5px;
   }
   .description__general-text {
     width: 440px;
+    margin-top: 32px;
   }
-  .description__title,
-  .description__general-title {
-    margin-top: 14px;
+  .description__catalog-subtext {
+    width: 450px;
+  }
+  .description-border::before {
+    display: none;
+  }
+  .description__catalog-subtitle {
+    margin-top: 58px;
   }
 }
 

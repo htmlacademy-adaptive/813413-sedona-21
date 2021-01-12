@@ -80,8 +80,16 @@
 @media (min-width: $tablet-width) {
   .media__photo {
     border-top: none;
+    margin-top: 0;
   }
   .media__img {
+    display: none;
+  }
+  .media__photo-main {
+    margin-top: 76px;
+  }
+  .media__photo-main::before,
+  .media__photo-border::before {
     display: none;
   }
   .media__img-container {
@@ -122,8 +130,15 @@
     width: 648px;
   }
   .media__likes {
-    padding: 30px 0 0 0;
+    padding: 19px 0 0 0;
     margin-right: 20px;
+  }
+  .media__likes-gallery-1,
+  .media__likes-gallery-3 {
+    margin-right: 27px;
+  }
+  .media__likes-gallery-2 {
+    margin-right: 35px;
   }
   .media__like-container {
     position: absolute;
@@ -131,8 +146,8 @@
     left: 242px;
   }
   .media__like-position{
-    top: 30px;
-    left: 553px;
+    top: 28px;
+    left: 563px;
   }
   .media__caption-first {
     position: relative;
