@@ -1,5 +1,6 @@
 .video {
-  margin-bottom: 64px;
+  margin-bottom: 143px;
+  margin-top: 31px;
 }
 .video__control {
   background-image: url("../img/catalog/video-mobile.jpg");
@@ -8,7 +9,7 @@
 }
 .video__control-panel{
   width: 280px;
-  height: 45px;
+  height: 66px;
   background-color: $gray-input;
   position: relative;
   top: 202px;
@@ -21,7 +22,7 @@
   opacity: 0.6;
   position: relative;
   left: 20px;
-  top: 111px;
+  top: 90px;
 }
 
 .video__control-scale {
@@ -56,17 +57,17 @@
 }
 
 .video__control-replay {
-  top: 13px;
-  left: 16px;
+  top: 22px;
+  left: 20px;
 }
 
 .video__control-sub {
-  top: 13px;
+  top: 22px;
   left: 168px;
 }
 
 .video__control-fullscreen {
-  top: 13px;
+  top: 22px;
   left: 232px;
 }
 
@@ -74,7 +75,8 @@
   .video {
     max-width: 648px;
     margin: 0 auto;
-    margin-bottom: 80px;
+    margin-bottom: 87px;
+    margin-top: 80px;
   }
   .video__control {
     background-image: url("../img/tablet/video-tablet.jpg");
@@ -85,26 +87,30 @@
     width: 648px;
     height: 93px;
     left: 0px;
-    top: 362px;
+    top: 341px;
   }
   .video__control-scale {
     width: 389px;
-    top: 43px;
+    top: 44px;
     left: 286px;
-    border: 1px solid #000000;
+    border: 1px solid $basic-black;
   }
   .video__control-bar {
-    top: 41px;
-    left: 205px;
+    top: 42px;
+    left: 206px;
   }
   .video__control-panel {
     background-color: transparent;
-    top: 429px;
-    left: 20px;
+    top: 420px;
+    left: 17px;
     z-index: 1;
   }
+  .video__control-replay {
+    top: 21px;
+    left: 12px;
+  }
   .video__control-sub {
-    left: 491px;
+    left: 501px;
   }
   .video__control-fullscreen {
     left: 565px;
@@ -120,6 +126,7 @@
 @media (min-width: $desktop-width) {
   .video {
     max-width: 800px;
+    margin-top: 77px;
 }
   .video__control {
     background-image: url("../img/desktop/video-desktop.jpg");
@@ -130,10 +137,10 @@
     width: 800px;
   }
   .video__control-fullscreen {
-    left: 712px;
+    left: 714px;
   }
   .video__control-sub {
-    left: 644px;
+    left: 651px;
   }
   .video__control-scale {
     width: 540px;

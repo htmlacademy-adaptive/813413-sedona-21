@@ -1,3 +1,19 @@
+.description {
+  position: relative;
+}
+
+.description-border::before {
+  content: "";
+  width: 320px;
+  height: 1px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-image: url("../img/catalog/line.svg");
+  top: -9%;
+  left: 0%;
+  position: absolute;
+}
+
 .description__title,
 .description__general-title {
   margin: 0 auto;
@@ -6,6 +22,10 @@
   font-size: 18px;
   text-align: center;
   width: 272px;
+}
+
+.description__catalog-title {
+  margin-top: 20px;
 }
 
 .description__text {
@@ -19,6 +39,20 @@
   width: 285px;
 }
 
+.description__catalog-subtitle,
+.description__catalog-subtext {
+  margin: 0 auto;
+}
+
+.description__catalog-subtitle {
+  margin-top: 34px;
+}
+
+.description__catalog-subtext {
+  margin-top: 28px;
+  width: 258px;
+}
+
 @media (min-width: $tablet-width) {
   .description__title,
   .description__text,
@@ -30,19 +64,29 @@
   }
   .description__general-title {
     font-size: 30px;
+    margin-top: 5px;
   }
   .description__general-text {
     width: 440px;
+    margin-top: 32px;
   }
-  .description__title,
-  .description__general-title {
-    margin-top: 14px;
+  .description__catalog-subtext {
+    width: 450px;
+  }
+  .description-border::before {
+    display: none;
+  }
+  .description__catalog-subtitle {
+    margin-top: 58px;
   }
 }
 
 @media (min-width: $desktop-width) {
   .description {
-    margin-top: 44px;
+    margin-top: 34px;
+  }
+  .description-border {
+    margin-top: 62px;
   }
   .description__text {
     margin-top: 32px;
