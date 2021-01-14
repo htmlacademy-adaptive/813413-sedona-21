@@ -1,5 +1,5 @@
 .intro {
-  background-image: url("../img/header/logo-mobile.jpg");
+  background-image: url("../img/header/logo-mobile.webp");
   background-repeat: no-repeat;
   width: 320px;
   height: 390px;
@@ -10,7 +10,7 @@
 @media (min-width: $tablet-width) {
   .intro {
     margin: 0 auto;
-    background-image: url("../img/tablet/logo-tablet.jpg");
+    background-image: url("../img/tablet/logo-tablet.webp");
     width: 767px;
     height: 518px;
   }
@@ -19,7 +19,7 @@
 @media (min-width: $desktop-width) {
   .intro {
     margin: 0 auto;
-    background-image: url("../img/desktop/logo-desktop.jpg");
+    background-image: url("../img/desktop/logo-desktop.webp");
     width: 1200px;
     height: 518px;
   }

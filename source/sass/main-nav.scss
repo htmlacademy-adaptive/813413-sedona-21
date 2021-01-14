@@ -56,11 +56,18 @@
   position: relative;
 }
 
-.main-nav__link-logo {
+.main-nav__icon-logo {
+  display: block;
   position: absolute;
+  width: 102px;
+  height: 84px;
   z-index: 1;
   top: 0%;
   left: 34%;
+}
+
+.main-nav__icon-logo-desktop {
+  display: none;
 }
 
 .main-nav__toggle {
@@ -129,7 +136,7 @@
     box-shadow: none;
     font-size: 14px;
   }
-  .main-nav__link-logo {
+  .main-nav__icon-logo {
     left: 17%;
     top: 0;
   }
@@ -148,12 +155,15 @@
   .main-nav__item:nth-child(4) {
     margin-left: 0;
   }
-  .main-nav__item--logo::after {
-    background-image: url("../../../img/desktop/logotype-desktop.svg");
+  .main-nav__icon-logo {
+    display: none;
+  }
+  .main-nav__icon-logo-desktop {
+    display: block;
+    position: absolute;
     width: 187px;
     height: 97px;
-  }
-  .main-nav__link-logo {
+    z-index: 1;
     top: 0;
     left: 12%;
   }
