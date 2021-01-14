@@ -16,40 +16,37 @@
   position: relative;
 }
 
-.social__item:first-child::before {
+.social__icon-twitter {
+  display: block;
   position: absolute;
-  content: "";
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-image: url("../img/footer/icon-twitter.svg");
   width: 16px;
   height: 15px;
   top: 36%;
   left: 30%;
 }
 
-.social__item:nth-child(2)::before {
+.social__icon-facebook {
+  display: block;
   position: absolute;
-  content: "";
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-image: url("../img/footer/icon-facebook.svg");
   width: 11px;
   height: 19px;
   top: 31%;
   left: 42%;
 }
 
-.social__item:last-child::before {
+.social__icon-youtube {
+  display: block;
   position: absolute;
-  content: "";
   background-position: 0 0;
   background-repeat: no-repeat;
-  background-image: url("../img/footer/icon-youtube.svg");
   width: 24px;
   height: 15px;
   top: 36%;
-  left: 30%;
+  left: 26%;
 }
 
 .social__item:first-child:hover {
@@ -95,8 +92,10 @@
   padding-right: 5px;
 }
 
-.social__dev-icon-container {
+.social__icon-htmlacademy {
   position: absolute;
+  width: 34px;
+  height: 27px;
   top: -7%;
   left: 80%;
 }
@@ -132,7 +131,7 @@
   .social__dev {
     margin-right: 33px;
   }
-  .social__dev-icon-container {
+  .social__icon-htmlacademy {
     position: absolute;
     top: -15%;
     left: 108%;
@@ -155,7 +154,7 @@
   .social__dev::after {
     top: -6%;
   }
-  .social__dev-icon-container {
+  .town__icon-htmlacademy {
     position: absolute;
     top: -7%;
     left: 108%;
