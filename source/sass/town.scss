@@ -29,11 +29,9 @@
   margin-top: 27px;
 }
 
-.town__housing::before {
-  content: "";
+.town__icon-house {
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: url("../img/main/icon-house.svg");
   position: absolute;
   width: 40px;
   height: 40px;
@@ -41,11 +39,9 @@
   left: 7%;
 }
 
-.town__souvenirs::before {
-  content: "";
+.town__icon-souvenir {
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: url("../img/main/icon-gift.svg");
   position: absolute;
   width: 40px;
   height: 40px;
@@ -53,11 +49,9 @@
   left: 8%;
 }
 
-.town__food::before {
-  content: "";
+.town__icon-food {
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-image: url("../img/main/icon-burger.svg");
   position: absolute;
   width: 40px;
   height: 40px;
@@ -122,25 +116,23 @@
     margin-top: 75px;
     text-align: center;
   }
-  .town__housing::before,
-  .town__souvenirs::before,
-  .town__food::before {
+  .town__icon-house,
+  .town__icon-souvenir,
+  .town__icon-food {
+    display: block;
     width: 76px;
     height: 76px;
     margin: 0 auto;
   }
-  .town__housing::before {
-    background-image: url("../img/tablet/icon-house-tablet.svg");
+  .town__icon-house {
     top: 4%;
     left: 60px;
   }
-  .town__souvenirs::before {
-    background-image: url("../img/tablet/icon-gift-tablet.svg");
-    top: 2%;
+  .town__icon-souvenir {
+    top: 3%;
     left: 576px;
   }
-  .town__food::before {
-    background-image: url("../img/tablet/icon-burger-tablet.svg");
+  .town__icon-food {
     top: 5%;
     left: 315px;
   }
@@ -160,15 +152,15 @@
   .town__food {
     margin-left: 0;
   }
-  .town__housing::before{
+  .town__icon-house{
     left: 162px;
     top: 11%;
   }
-  .town__souvenirs::before {
+  .town__icon-souvenir {
     left: 968px;
     top: 9%;
   }
-  .town__food::before {
+  .town__icon-food {
     left: 562px;
     top: 13%;
   }
