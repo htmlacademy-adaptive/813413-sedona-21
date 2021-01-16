@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="css/style.css">
+    <base href="https://htmlacademy-adaptive.github.io/813413-sedona-21/19/">
+</head>
+  <body class="page__body">
+    <div class="page__container">
+      <header class="page-header">
+        <nav class="main-nav">
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list">
+              <li class="main-nav__item">
+                <a class="main-nav__link main-nav__link--size-a" href="index.html"><span class="main-nav__text">Главная</span></a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link main-nav__link--size-b" href="catalog.html"><span class="main-nav__text">Фото и видео</span></a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link main-nav__link--size-c" href="form.html"><span class="main-nav__text">Форма отзыва</span></a>
+              </li>
+              <li class="main-nav__item">
+                <a class="main-nav__link main-nav__link--size-d" href="https://htmlacademy.ru/"><span class="main-nav__text">Html Academy</span></a>
+              </li>
+              <li class="main-nav__item main-nav__item--logo">
+                <a class="main-nav__link-logo" href="#">
+                  <svg class="main-nav__icon-logo">
+                    <use xlink:href="img/sprite.svg#icon-logo"></use>
+                  </svg>
+                  <svg class="main-nav__icon-logo-desktop">
+                    <use xlink:href="img/sprite.svg#icon-logo-desktop"></use>
+                  </svg>
+                </a>
+              </li>
+              <button class="main-nav__toggle" type="button"><span class="visually-hidden">Меню</span></button>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <main class="page-main">
+        <section class="intro">
+          <div class="intro__title">
+            <h1 class="visually-hidden">СЕДОНА</h1>
+          </div>
+        </section>
+        <section class="description">
+          <h2 class="description__title">СЕДОНА — небольшой
+            городок в АРИЗОНЕ,
+            заслуживающий большего!</h2>
+          <p class="description__text">Рассмотрим 5 причин, по которым
+            Седона круче, чем гранд каньон!</p>
+        </section>
+        <section class="town">
+          <div class="color-card">
+            <div class="color-card__container color-card__container-deg">
+              <h2 class="color-card__title">Настоящий городок</h2>
+              <p class="color-card__number">—№1—</p>
+              <p class="color-card__text">Седона не аттракцион для туристов, там течет своя жизнь</p>
+            </div>
+          </div>
+          <div class="town__img-container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/desktop/photo-city-desktop.webp 1x, img/desktop/photo-city-desktop@2x.webp 2x">
+
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/tablet/photo-city-tablet.webp 1x, img/tablet/photo-city-tablet@2x.webp 2x">
+
+              <source type="image/webp" srcset="img/main/city.webp 1x, img/main/photo-city-mobile@2x.webp 2x">
+
+              <source media="(min-width: 1200px)" srcset="img/desktop/photo-city-desktop.jpg 1x, img/desktop/photo-city-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/tablet/photo-city-tablet.jpg 1x, img/tablet/photo-city-tablet@2x.jpg 2x">
+              <img class="town__img" src="img/main/city.jpg" srcset="img/main/photo-city-mobile@2x.jpg 2x" width="320" height="260" alt="Фото города">
+            </picture>
+          </div>
+          <div class="town__container">
+            <div class="town__housing">
+              <svg class="town__icon-house">
+                <use xlink:href="img/sprite.svg#icon-house"></use>
+              </svg>
+              <h3 class="town__title">Жилье</h3>
+              <p class="town__text">Рекомендуем пожить в
+                настоящем мотеле, все как в кино!</p>
+            </div>
+            <div class="town__souvenirs">
+              <svg class="town__icon-souvenir">
+                <use xlink:href="img/sprite.svg#icon-souvenir"></use>
+              </svg>
+              <h3 class="town__title">Сувениры</h3>
+              <p class="town__text town__text-desktop">Не только китайского,
+                <span class="town__text-addition">но и метсного производства!</span></p>
+            </div>
+            <div class="town__food">
+              <svg class="town__icon-food">
+                <use xlink:href="img/sprite.svg#icon-burger"></use>
+              </svg>
+              <h3 class="town__title">Еда</h3>
+              <p class="town__text town__text-mobile town__text-tablet town__text-desktop">Всегда заказывайте
+              фирменный бургер, вы не разочаруетесь!</p>
+            </div>
+          </div>
+        </section>
+        <section class="features">
+          <div class="color-card">
+            <div class="color-card__container color-card__container-fix">
+              <h2 class="color-card__title">Там есть мост дьявола</h2>
+              <p class="color-card__number">—№2—</p>
+              <p class="color-card__text color-card__desktop-text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
+            </div>
+          </div>
+          <div class="features__container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/desktop/photo-bridge.webp 1x, img/desktop/photo-bridge-desktop@2x.webp 2x">
+
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/tablet/devil-bridge.webp 1x, img/tablet/photo-bridge-tablet@2x.webp 2x">
+
+              <source type="image/webp" srcset="img/main/photo-bridge@1x.webp 1x, img/main/photo-bridge-mobile@2x.webp 2x">
+
+              <source media="(min-width: 1200px)" srcset="img/desktop/photo-bridge.jpg 1x, img/desktop/photo-bridge-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/tablet/devil-bridge.jpg 1x, img/tablet/photo-bridge-tablet@2x.jpg 2x">
+              <img class="features__img" src="img/main/photo-bridge@1x.jpg" srcset="img/main/photo-bridge-mobile@2x.jpg 2x" width="320" height="260" alt="Фото каньона">
+            </picture>
+          </div>
+          <div class="features__block">
+            <div class="features__block-container">
+              <h2 class="features__title">Небольшая площадь</h2>
+              <p class="features__number features__number-tablet">—№3—</p>
+              <p class="features__text">Все интересные места находятся очень близко</p>
+            </div>
+          </div>
+          <div class="features__block features__block-border">
+            <div class="features__block-container">
+              <h2 class="features__title">Красивая дорога</h2>
+              <p class="features__number">—№4—</p>
+              <p class="features__text features__text-width">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+            </div>
+          </div>
+          <div class="features__block features__block-border">
+            <div class="features__block-container">
+              <h2 class="features__title">Мало туристов</h2>
+              <p class="features__number">—№5—</p>
+              <p class="features__text">Большинство едет в Гранд каньон и толпится там</p>
+            </div>
+          </div>
+        </section>
+        <section class="interesting">
+          <div class="interesting__container">
+            <h2 class="interesting__title">Заинтересовались?</h2>
+            <p class="interesting__text">Укажите предпологаемые даты поездки,
+              <span class="interesting__text-addition">и мы покажем вам лучшие предложения гостиниц в Седоне</span></p>
+            <a class="interesting__search" href="#">Найти гостиницу</a>
+          </div>
+          <div class="interesting__map-container">
+            <picture>
+              <source type="image/webp" media="(min-width: 1200px)" srcset="img/desktop/photo-bridge.webp 1x, img/desktop/map-desktop@2x.webp 2x">
+
+              <source type="image/webp" media="(min-width: 768px)" srcset="img/tablet/devil-bridge.webp 1x, img/tablet/map-tablet@2x.webp 2x">
+
+              <source type="image/webp" srcset="img/main/map-mobile@1x.webp 1x, img/main/map-mobile@2x.webp 2x">
+
+              <source media="(min-width: 1200px)" srcset="img/desktop/photo-bridge.jpg 1x, img/desktop/map-desktop@2x.jpg 2x">
+              <source media="(min-width: 768px)" srcset="img/tablet/devil-bridge.jpg 1x, img/tablet/map-tablet@2x.jpg 2x">
+              <img class="interesting__map" src="img/main/map-mobile@1x.jpg" srcset="img/main/map-mobile@2x.jpg 2x" height="350" width="320" alt="Карта">
+            </picture>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <section class="social">
+          <h2 class="social__title">#visitsedona</h2>
+          <div class="social__links">
+            <a class="social__item" href="#">
+              <svg class="social__icon-twitter">
+                <use xlink:href="img/sprite.svg#icon-twitter"></use>
+              </svg>
+              <span class="visually-hidden">twitter</span>
+            </a>
+            <a class="social__item" href="#">
+              <svg class="social__icon-facebook">
+                <use xlink:href="img/sprite.svg#icon-facebook"></use>
+              </svg>
+              <span class="visually-hidden">facebook</span>
+            </a>
+            <a class="social__item" href="#">
+              <svg class="social__icon-youtube">
+                <use xlink:href="img/sprite.svg#icon-youtube"></use>
+              </svg>
+              <span class="visually-hidden">youtube</span>
+            </a>
+          </div>
+          <a class="social__dev" href="#">Разработано
+            <div class="social__dev-icon-container">
+              <svg class="social__icon-htmlacademy">
+                <use xlink:href="img/sprite.svg#icon-htmlacademy"></use>
+              </svg>
+            </div>
+          </a>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
