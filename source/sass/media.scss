@@ -54,6 +54,16 @@
   margin-left: 36px;
 }
 
+.media__icon-like {
+  display: block;
+  position: absolute;
+  width: 23px;
+  height: 21px;
+  fill: $basic-white;
+  top: 372px;
+  left: 20px;
+}
+
 .media__like-container {
   position: absolute;
   top: 372px;
