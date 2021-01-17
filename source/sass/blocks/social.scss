@@ -96,6 +96,8 @@
   position: absolute;
   width: 27px;
   height: 34px;
+  width: 34px;
+  height: 27px;
   top: -7%;
   left: 80%;
 }
@@ -143,6 +145,7 @@
     max-width: 960px;
     margin: 0 auto;
     margin-top: 108px;
+    margin-top: 132px;
   }
   .social-feedback {
     margin-top: 112px;
@@ -156,5 +159,10 @@
   }
   .social__icon-htmlacademy {
     top: -6%;
+  }
+  .town__icon-htmlacademy {
+    position: absolute;
+    top: -7%;
+    left: 108%;
   }
 }
