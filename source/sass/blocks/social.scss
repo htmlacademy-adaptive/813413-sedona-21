@@ -94,6 +94,8 @@
 
 .social__icon-htmlacademy {
   position: absolute;
+  width: 27px;
+  height: 34px;
   width: 34px;
   height: 27px;
   top: -7%;
@@ -142,6 +144,7 @@
   .social {
     max-width: 960px;
     margin: 0 auto;
+    margin-top: 108px;
     margin-top: 132px;
   }
   .social-feedback {
@@ -152,6 +155,9 @@
     margin-bottom: 36px;
   }
   .social__dev::after {
+    top: -6%;
+  }
+  .social__icon-htmlacademy {
     top: -6%;
   }
   .town__icon-htmlacademy {

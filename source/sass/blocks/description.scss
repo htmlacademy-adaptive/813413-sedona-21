@@ -64,6 +64,7 @@
   }
   .description__general-title {
     font-size: 30px;
+    margin-top: 9px;
     margin-top: 5px;
   }
   .description__general-text {
@@ -80,9 +81,9 @@
     margin-top: 58px;
   }
 }
-
 @media (min-width: $desktop-width) {
   .description {
+    margin-top: 44px;
     margin-top: 34px;
   }
   .description-border {
