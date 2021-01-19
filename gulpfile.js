@@ -1,9 +1,10 @@
-const gulp = require("gulp");
+const gulp = require("node_modules/gulp");
 const plumber = require("gulp-plumber");
 const sourcemap = require("gulp-sourcemaps");
 const sass = require("gulp-sass");
 const postcss = require("gulp-postcss");
 const autoprefixer = require("autoprefixer");
+const svgstore = require("gulp-svgstore");
 const sync = require("browser-sync").create();
 
 // Styles
@@ -23,9 +24,27 @@ const styles = () => {
 
 exports.styles = styles;
 
+// Sprite
+const sprite = () => {
+  return gulp.src("source/img/icons/*svg")
+  .pipe(svgstore())
+  .pipe(rename(obj,"sprite.svg"))
+  .pipe(gulp.dest("source/img/icons"))
+}
+
+exports.sprite = sprite;
+
+// Task
+const pages = () => {
+  return gulp.src("source/*html")
+  .pipe(gulp.dest("source/html"))
+}
+
+exports.pages = pages;
+
 // Server
 
-const server = (done) => {
+function server(done) {
   sync.init({
     server: {
       baseDir: 'source'
