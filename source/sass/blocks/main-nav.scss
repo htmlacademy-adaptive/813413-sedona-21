@@ -89,9 +89,10 @@
 }
 
 .main-nav__item--logo {
-  width: 320px;
+  width: 50px;
   height: 55px;
   position: relative;
+  left: 93px;
 }
 
 .main-nav__icon-logo {
@@ -174,7 +175,7 @@
   .main-nav__item--logo {
     position: absolute;
     top: -55px;
-    left: 36%;
+    left: 43%;
 }
   .main-nav__link {
     padding: 0;
