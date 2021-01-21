@@ -95,16 +95,17 @@
 .social__icon-htmlacademy {
   position: absolute;
   width: 27px;
-  height: 34px;
+  height: 39px;
   top: -7%;
   left: 80%;
+  fill: $basic-black;
 }
 
-.social__dev-icon path:hover {
+.social__icon-htmlacademy:hover {
   fill: $basic-blue;
 }
 
-.social__dev-icon path:disabled {
+.social__icon-htmlacademy:disabled {
   fill: $basic-gray;
 }
 

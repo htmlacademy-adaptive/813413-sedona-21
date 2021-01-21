@@ -43,6 +43,13 @@
   display: block;
   margin-top: 48px;
 }
+.interesting__map {
+  display: none;
+}
+.interesting__map-google {
+  width: 320px;
+  height: 350px;
+}
 
 @media (min-width: $tablet-width) {
   .interesting {
@@ -66,6 +73,10 @@
   .interesting__map {
     display: none;
   }
+  .interesting__map-google {
+    width: 768px;
+    height: 350px;
+  }
   .interesting__map-container {
     background-image: url("../img/tablet/map-tablet@1x.webp");
     height: 350px;
@@ -87,5 +98,9 @@
     background-image: url("../img/desktop/map-desktop@1x.webp");
     width: 1200px;
     margin-top: 66px;
+  }
+  .interesting__map-google {
+    width: 1200px;
+    height: 350px;
   }
 }
