@@ -1,6 +1,19 @@
+.feedback__container {
+  margin-top: 37px;
+}
+
+@media (min-width: $tablet-width) {
+  .feedback__container {
+    margin-top: 73px;
+  }
+}
+
 @media (min-width: $desktop-width) {
   .feedback {
     max-width: 960px;
     margin: 0 auto;
+  }
+  .feedback__container {
+    margin-top: 113px;
   }
 }

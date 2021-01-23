@@ -34,6 +34,10 @@
   margin-top: 10px;
 }
 
+.features__container {
+  background-color: $basic-gray;
+}
+
 .features__block-border::before {
   content: "";
   position: absolute;
