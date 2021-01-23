@@ -154,8 +154,6 @@
 
 .form-feedback__check-input {
   position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 
@@ -211,8 +209,6 @@
 
 .form-feedback__attractions-check-input {
   position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   appearance: none;
 }
 
@@ -438,7 +434,7 @@
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 0 0px 68px;
+    padding: 0 0 0 68px;
   }
 
   .form-feedback__attractions-item {
@@ -480,7 +476,7 @@
   .form-feedback__description-text {
     min-width: 598px;
     height: 141px;
-    padding: 19px 26px 0px 24px;
+    padding: 19px 26px 0 24px;
   }
 
   .form-feedback__description-text input {
@@ -563,7 +559,7 @@
   }
 
   .form-feedback__impression-list {
-    padding: 0px;
+    padding: 0;
     margin-left: 24px;
   }
 
@@ -771,7 +767,7 @@
   .form-feedback__description-text {
     min-width: 940px;
     height: 141px;
-    padding: 21px 0px 0px 21px;
+    padding: 21px 0 0 21px;
   }
 
   .form-feedback__button-container {

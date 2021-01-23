@@ -59,19 +59,23 @@
     justify-content: center;
     margin: 0;
   }
-  .color-card__title{
+
+  .color-card__title {
     font-size: 21px;
     margin: 0 auto;
     width: 150px;
   }
+
   .color-card__text {
     width: 190px;
     line-height: 1.5;
     margin-top: 22px;
   }
+
   .color-card__container {
     padding: 29px 0 28px 0;
   }
+
   .color-card__container-deg::before {
     display: none;
   }
@@ -81,6 +85,7 @@
   .color-card__text {
     width: 275px;
   }
+
   .color-card__desktop-text {
     width: 230px;
   }
