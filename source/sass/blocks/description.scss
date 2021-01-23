@@ -24,6 +24,11 @@
   width: 272px;
 }
 
+.description__title {
+  margin:0 auto;
+  margin-top: 33px;
+}
+
 .description__catalog-title {
   margin-top: 35px;
 }
@@ -34,7 +39,7 @@
   font-weight: 400;
   text-align: center;
   margin: 0 auto;
-  margin-top: 27px;
+  margin-top: 30px;
   line-height: 1.8;
   width: 285px;
 }
@@ -59,23 +64,30 @@
   .description__general-title {
     width: 520px;
   }
+
   .description__title {
     font-size: 21px;
+    margin-top: 45px;
   }
+
   .description__general-title {
     font-size: 30px;
     margin-top: 65px;
   }
+
   .description__general-text {
     width: 440px;
     margin-top: 32px;
   }
+
   .description__catalog-subtext {
     width: 450px;
   }
+
   .description-border::before {
     display: none;
   }
+
   .description__catalog-subtitle {
     margin-top: 58px;
   }
@@ -85,15 +97,19 @@
   .description {
     margin-top: 56px;
   }
+
   .description__general-title {
     margin-top: 100px;
   }
-  .description__catalog-subtitle{
+
+  .description__catalog-subtitle {
     margin-top: 50px;
   }
+
   .description-border {
     margin-top: 62px;
   }
+
   .description__text {
     margin-top: 32px;
   }
