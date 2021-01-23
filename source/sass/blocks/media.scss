@@ -96,6 +96,7 @@
     background-image: url("../img/tablet/photo-1-tablet.jpg");
     width: 648px;
     height: 400px;
+    background-color: $basic-blue;
   }
   .media__img-gallery{
     display: flex;
@@ -107,6 +108,7 @@
     width: 324px;
     height: 267px;
     background-repeat: no-repeat;
+    background-color: $basic-blue;
   }
   .media__img-1 {
     background-image: url("../img/tablet/photo-2-tablet.jpg");
