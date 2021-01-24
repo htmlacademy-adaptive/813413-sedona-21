@@ -89,6 +89,12 @@ const scripts = () => {
 
 exports.scripts = scripts;
 
+// Clean
+
+const clean = () => {
+  return del("build");
+}
+
 // Copy
 
 const copy = () => {
@@ -104,12 +110,6 @@ const copy = () => {
 }
 
 exports.copy = copy;
-
-// Clean
-
-const clean = () => {
-  return del("build");
-}
 
 // Build
 

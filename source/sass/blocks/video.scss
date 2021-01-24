@@ -2,12 +2,14 @@
   margin-bottom: 143px;
   margin-top: 31px;
 }
+
 .video__control {
   background-image: url("../img/catalog/video-mobile.jpg");
   width: 320px;
   height: 201px;
 }
-.video__control-panel{
+
+.video__control-panel {
   width: 280px;
   height: 66px;
   background-color: $gray-input;
@@ -15,6 +17,7 @@
   top: 202px;
   left: 20px;
 }
+
 .video__control-volume {
   width: 280px;
   height: 45px;
@@ -78,47 +81,57 @@
     margin-bottom: 87px;
     margin-top: 80px;
   }
+
   .video__control {
     background-image: url("../img/tablet/video-tablet.jpg");
     width: 648px;
     height: 500px;
   }
+
   .video__control-volume {
     width: 648px;
     height: 93px;
-    left: 0px;
+    left: 0;
     top: 341px;
   }
+
   .video__control-scale {
     width: 389px;
     top: 44px;
     left: 286px;
     border: 1px solid $basic-black;
   }
+
   .video__control-bar {
     top: 42px;
     left: 206px;
   }
+
   .video__control-panel {
     background-color: transparent;
     top: 420px;
     left: 17px;
     z-index: 1;
   }
+
   .video__control-replay {
     top: 21px;
     left: 12px;
   }
+
   .video__control-sub {
     left: 501px;
   }
+
   .video__control-fullscreen {
     left: 565px;
   }
+
   .video__control-button {
     background-color: transparent;
   }
-  .video__icon path{
+
+  .video__icon path {
     fill: $basic-white;
   }
 }
@@ -127,21 +140,26 @@
   .video {
     max-width: 800px;
     margin-top: 77px;
-}
+  }
+
   .video__control {
     background-image: url("../img/desktop/video-desktop.jpg");
     width: 800px;
     height: 500px;
   }
+
   .video__control-volume {
     width: 800px;
   }
+
   .video__control-fullscreen {
     left: 714px;
   }
+
   .video__control-sub {
     left: 651px;
   }
+
   .video__control-scale {
     width: 540px;
     left: 365px;

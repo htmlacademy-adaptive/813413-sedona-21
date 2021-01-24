@@ -43,9 +43,11 @@
   display: block;
   margin-top: 48px;
 }
+
 .interesting__map {
   display: none;
 }
+
 .interesting__map-google {
   width: 320px;
   height: 350px;
@@ -58,31 +60,38 @@
     margin-top: 58px;
     margin-bottom: 50px;
   }
+
   .interesting__title {
     font-size: 30px;
   }
+
   .interesting__text {
     font-size: 14px;
     margin: 0 auto;
     margin-top: 32px;
     width: 440px;
   }
-  .interesting__text-addition{
+
+  .interesting__text-addition {
     display: block;
   }
+
   .interesting__map {
     display: none;
   }
+
   .interesting__map-google {
     width: 768px;
     height: 350px;
   }
+
   .interesting__map-container {
     background-image: url("../img/tablet/map-tablet@1x.webp");
     height: 350px;
     width: 768px;
     margin-top: 58px;
   }
+
   .interesting__search {
     text-align: center;
     margin-top: 36px;
@@ -94,11 +103,13 @@
   .interesting {
     width: 1200px;
   }
+
   .interesting__map-container {
     background-image: url("../img/desktop/map-desktop@1x.webp");
     width: 1200px;
     margin-top: 66px;
   }
+
   .interesting__map-google {
     width: 1200px;
     height: 350px;

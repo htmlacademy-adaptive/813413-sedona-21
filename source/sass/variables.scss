@@ -11,7 +11,7 @@ $gray-input2: #eaeaea;
 $gray-border: #d6d6d6;
 $basic-white: #ffffff;
 $basic-black: #000000;
-$black-transperent: rgba(0,0,0,.3);
+$black-transperent: rgba(0, 0, 0, 0.3);
 $gray-border-shadow: rgba(0, 1, 1, 0.2);
 
 //Template breakpoints
@@ -27,16 +27,18 @@ $desktop-width-container: 1200px;
 //Template Fonts
 @font-face {
   font-family: "PT Sans";
-  src:url("../fonts/ptsans.woff2") format("woff2"),
-    url("../fonts/ptsans.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+  src:url("../fonts/ptsans.woff2") format("woff2"),
+    url("../fonts/ptsans.woff") format("woff");
 }
 
 @font-face {
   font-family: "PT Sans";
-  src: url("../fonts/ptsansbold.woff2") format("woff2"),
-    url("../fonts/ptsansbold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
+  src: url("../fonts/ptsansbold.woff2") format("woff2"),
+    url("../fonts/ptsansbold.woff") format("woff");
 }
